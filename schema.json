@@ -1721,7 +1721,7 @@
         },
         "tabs": [
             {
-                "endpoint": "/",
+                "endpoint": "/search",
                 "label": "Term & Gene Search",
                 "type": "page",
                 "component": "KnowledgeGraph",
@@ -1739,7 +1739,7 @@
                 }
             },
             {
-                "endpoint": "/",
+                "endpoint": "/libraries",
                 "label": "Libraries",
                 "type": "page",
                 "component": "KnowledgeGraph",
@@ -1748,7 +1748,7 @@
                 }
             },
             {
-                "endpoint": "/",
+                "endpoint": "/help",
                 "label": "Help",
                 "type": "page",
                 "component": "KnowledgeGraph",
