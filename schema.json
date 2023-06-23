@@ -1711,16 +1711,16 @@
     ],
     "header": {
         "title": "lncEnrichr-KG",
+        "background": {
+            "backgroundColor": "F4DECB"
+        },
         "icon": {
             "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
             "favicon": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
             "alt": "Enrichr logo",
             "key": "enrichr_logo",
             "width": 100,
-            "height": 60,
-            "background": {
-                "backgroundColor": "F4DECB"
-            }
+            "height": 60
         },
         "tabs": [
             {
