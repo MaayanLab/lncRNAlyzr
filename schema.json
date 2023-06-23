@@ -1753,7 +1753,7 @@
                 "type": "markdown",
                 "component": "Markdown",
                 "props": {
-                    "src": "C:/Users/etoil/OneDrive/Desktop/lncRNA-Knowledge-Graph/Help.md"
+                    "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/Help.md"
                 }
             }
         ]
