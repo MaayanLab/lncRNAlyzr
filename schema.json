@@ -1710,7 +1710,7 @@
         }
     ],
     "header": {
-        "title": "Enrichr lncRNA Knowledge Graph",
+        "title": "lncEnrichr-KG",
         "icon": {
             "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
             "favicon": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
@@ -1741,10 +1741,10 @@
             {
                 "endpoint": "/libraries",
                 "label": "Libraries",
-                "type": "page",
-                "component": "KnowledgeGraph",
+                "type": "markdown",
+                "component": "Markdown",
                 "props": {
-                    "init_function": "initialize_kg"
+                   "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/Library.md"
                 }
             },
             {
