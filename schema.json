@@ -1717,7 +1717,10 @@
             "alt": "Enrichr logo",
             "key": "enrichr_logo",
             "width": 100,
-            "height": 60
+            "height": 60,
+            "background": {
+                "backgroundColor": "F4DECB"
+            }
         },
         "tabs": [
             {
