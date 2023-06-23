@@ -1750,10 +1750,10 @@
             {
                 "endpoint": "/help",
                 "label": "Help",
-                "type": "page",
-                "component": "KnowledgeGraph",
+                "type": "markdown",
+                "component": "Markdown",
                 "props": {
-                    "init_function": "initialize_kg"
+                    "src": "C:\Users\etoil\OneDrive\Desktop\lncRNA-Knowledge-Graph\Help.md"
                 }
             }
         ]
