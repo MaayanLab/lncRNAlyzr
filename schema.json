@@ -1728,6 +1728,33 @@
                 "props": {
                     "init_function": "initialize_kg"
                 }
+            },
+            {
+                "endpoint": "/",
+                "label": "Enrichment Analysis",
+                "type": "page",
+                "component": "KnowledgeGraph",
+                "props": {
+                    "init_function": "initialize_kg"
+                }
+            },
+            {
+                "endpoint": "/",
+                "label": "Libraries",
+                "type": "page",
+                "component": "KnowledgeGraph",
+                "props": {
+                    "init_function": "initialize_kg"
+                }
+            },
+            {
+                "endpoint": "/",
+                "label": "Help",
+                "type": "page",
+                "component": "KnowledgeGraph",
+                "props": {
+                    "init_function": "initialize_kg"
+                }
             }
         ]
     },
