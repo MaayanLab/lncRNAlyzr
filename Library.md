@@ -12,8 +12,7 @@
 | [DisGeNET](https://www.disgenet.org/) |[DisGeNET_lncRNA](https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/DisGeNET_lncRNA.txt) | 06-26-23 |
 | [Descartes](https://descartes.brotmanbaty.org/) |[Descartes_Cell_Types_and_Tissue_2021_lncRNA](https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/Descartes_Cell_Types_and_Tissue_2021_lncRNA.txt) | 06-26-23 |
 | [FANTOM6](https://fantom.gsc.riken.jp/) |[FANTOM6_lncRNA_KD_DEGs_lncRNA](https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/FANTOM6_lncRNA_KD_DEGs_lncRNA.txt) | 06-26-23 |
-| [Gene Ontology](http://geneontology.org/) |[GO_Biological_Process_2021_lncRNA
-](https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/GO_Biological_Process_2021_lncRNA.txt) | 06-26-23 |
+| [Gene Ontology](http://geneontology.org/) |[GO_Biological_Process_2021_lncRNA](https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/GO_Biological_Process_2021_lncRNA.txt) | 06-26-23 |
 | [GWAS_Catalog](https://www.ebi.ac.uk/gwas/) |[GWAS_Catalog_2019_lncRNA](https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/GWAS_Catalog_2019_lncRNA.txt) | 06-26-23 |
 | [HuBMAP_ASCTplusB_augmented_2022](https://hubmapconsortium.github.io/ccf-asct-reporter/) |[HuBMAP_ASCTplusB_augmented_2022_lncRNA](https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/HuBMAP_ASCTplusB_augmented_2022_lncRNA.txt) | 06-26-23 |
 | [Human Gene Atlas](http://biogps.org/downloads/) |[Human_Gene_Atlas_lncRNA](https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/Human_Gene_Atlas_lncRNA.txt) | 06-26-23 |
