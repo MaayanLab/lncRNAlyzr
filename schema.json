@@ -1711,6 +1711,9 @@
     ],
     "header": {
         "title": "lncEnrichr-KG",
+        "background": {
+            "backgroundColor": "F4DECB"
+        },
         "icon": {
             "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo.png",
             "favicon": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo.png",
