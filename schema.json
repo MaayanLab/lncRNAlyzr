@@ -1711,15 +1711,12 @@
     ],
     "header": {
         "title": "lncEnrichr-KG",
-        "background": {
-            "backgroundColor": "F4DECB"
-        },
         "icon": {
-            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
-            "favicon": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
-            "alt": "Enrichr logo",
-            "key": "enrichr_logo",
-            "width": 100,
+            "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo.png",
+            "favicon": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo.png",
+            "alt": "lncEnrichr-KG logo",
+            "key": "lncenrichr_kg_logo",
+            "width": 60,
             "height": 60
         },
         "tabs": [
