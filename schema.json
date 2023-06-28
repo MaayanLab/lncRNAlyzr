@@ -1715,8 +1715,8 @@
             "backgroundColor": "F4DECB"
         },
         "icon": {
-            "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo.png",
-            "favicon": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo.png",
+            "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo-new.png",
+            "favicon": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo-new.png",
             "alt": "lncEnrichr-KG logo",
             "key": "lncenrichr_kg_logo",
             "width": 60,
