@@ -1730,16 +1730,171 @@
                 "component": "KnowledgeGraph",
                 "props": {
                     "init_function": "initialize_kg"
+                    "initial_query":{
+    					"start":"ARCHS4_TFs_Coexp_lncRNA",
+    					"start_term":"DANCR",
+    					"start_field":"label",
+    					"relation":"ARCHS4 TFs Coexp lncRNA"
+				    }
                 }
             },
             {
                 "endpoint": "/",
                 "label": "Enrichment Analysis",
                 "type": "page",
-                "component": "KnowledgeGraph",
+                "component": "Enrichment",
                 "props": {
-                    "init_function": "initialize_kg"
-                }
+                    "init_function": "initialize_enrichment",
+                    "description": "Enter a list of genes below to perform enrichment analysis using [Independent Enrichment Analysis](https://appyters.maayanlab.cloud/Independent_Enrichment_Analysis/).",
+                    "placeholder":"Enter newline separated gene sets",
+                    "example":{
+					    "gene_set":"TTC39C-AS1\nLINC02768\nENSG00000287557\nFSIP2-AS1\nPRICKLE2-DT\nENSG00000282304\nNHS-AS1\nENSG00000248676\nLINC02216\nENSG00000288929\nLINC02653\nENSG00000249771\nLINC02749\nVPS13C-DT\nENSG00000286981",
+				        "libraries":[
+						    {
+							    "library":"CCLE_Proteomics_2020_lncRNA",
+							    "term_limit":5
+						    },
+						    {
+							    "library":"ARCHS4_TFs_Coexp_lncRNA",
+							    "term_limit":5
+						    },
+                            {
+							    "library":"DisGeNET_lncRNA",
+                                "term_limit":5
+						    }
+					    ],
+					    "gene_degree":3
+                    },
+                    "libraries":[
+    					{
+    						"name":"ARCHS4_TFs_Coexp_lncRNA",
+    						"node":"ARCHS4 TFs Coexp lncRNA"
+    					},
+    					{
+    						"name":"Achilles_fitness_decrease_lncRNA",
+    						"node":"Achilles fitness decrease lncRNA"
+    					},
+    					{
+    						"name":"Achilles_fitness_increase_lncRNA",
+    						"node":"Achilles fitness increase lncRNA"
+    					},
+    					{
+    						"name":"CCLE_Proteomics_2020_lncRNA",
+    						"node":"CCLE Proteomics 2020 lncRNA"
+    					},
+    					{
+    						"name":"ChEA_2022_lncRNA",
+    						"node":"ChEA 2022 lncRNA"
+    					},
+    					{
+    						"name":"Descartes_Cell_Types_and_Tissue_2021_lncRNA",
+    						"node":"Descartes Cell Types and Tissue 2021 lncRNA"
+    					},
+    					{
+    						"name":"CCLE_Proteomics_2020",
+    						"node":"CCLE Proteomics 2020"
+    					},
+    					{
+    						"name":"DisGeNET_lncRNA",
+    						"node":"DisGeNET lncRNA"
+    					},
+    					{
+    						"name":"FANTOM6_lncRNA_KD_DEGs_lncRNA",
+    						"node":"FANTOM6 lncRNA KD DEGS lncRNA"
+    					},
+    					{
+    						"name":"GO_Biological_Process_2021_lncRNA",
+    						"node":"GO Biological Process 2021 lncRNA"
+    					},
+    					{
+    						"name":"GWAS_Catalog_2019_lncRNA",
+    						"node":"GWAS Catalog 2019 lncRNA"
+    					},
+    					{
+    						"name":"HuBMAP_ASCTplusB_augmented_2022_lncRNA",
+    						"node":"HuBMAP ASCTplusB augmented 2022 lncRNA"
+    					},
+    					{
+    						"name":"Human_Gene_Atlas_lncRNA",
+    						"node":"Human Gene Atlas lncRNA"
+    					},
+    					{
+    						"name":"Human_Phenotype_Ontology_lncRNA",
+    						"node":"Human Phenotype Ontology lncRNA"
+    					},
+    					{
+    						"name":"Jensen_DISEASES_lncRNA",
+    						"node":"Jensen DISEASES lncRNA"
+    					},
+    					{
+    						"name":"KEGG_2021_Human_lncRNA",
+    						"node":"KEGG 2021 Human lncRNA"
+    					},
+    					{
+    						"name":"MGI_Mammalian_Phenotype_Level_4_2021_lncRNA",
+    						"node":"MGI Mammalian Phenotype Level 4 2021 lncRNA"
+    					},
+    					{
+    						"name":"PFOCR_Pathways_lncRNA",
+    						"node":"PFOCR Pathways lncRNA"
+    					},
+    					{
+    						"name":"Pfam_InterPro_Domains_lncRNA",
+    						"node":"Pfam InterPro Domains lncRNA"
+    					},
+    					{
+    						"name":"Proteomics_Drug_Atlas_2023_lncRNA",
+    						"node":"Proteomics Drug Atlas 2023 lncRNA"
+    					},
+    					{
+    						"name":"Reactome_2022_lncRNA",
+    						"node":"Reactome 2022 lncRNA"
+    					},
+    					{
+    						"name":"TRRUST_Transcription_Factors_2019_lncRNA",
+    						"node":"TRRUST Transcription Factors 2019 lncRNA"
+    					},
+    					{
+    						"name":"Tabula_Muris_lncRNA",
+    						"node":"Tabula Muris lncRNA"
+    					},
+    					{
+    						"name":"Tabula_Sapiens_lncRNA",
+    						"node":"Tabula Sapiens lncRNA"
+    					},
+    					{
+    						"name":"The_Kinase_Library_2023_lncRNA",
+    						"node":"The Kinase Library 2023 lncRNA"
+    					},
+    					{
+    						"name":"WikiPathway_2021_Human_lncRNA",
+    						"node":"WikiPathway 2021 Human lncRNA"
+    					},
+				    ],
+				    "default_options":{
+					    "term_limit":5,
+					    "min_lib":1,
+					    "libraries":[
+    						{
+    							"library":"ARCHS4_TFs_Coexp_lncRNA",
+    							"term_limit":5
+    						},
+    						{
+    							"library":"Achilles_fitness_decrease_lncRNA",
+    							"term_limit":5
+    						},
+    						{
+    							"library":"Achilles_fitness_increase_lncRNA",
+    							"term_limit":5
+    						}
+					    ]
+				    },
+				    "subheader":{
+    					"onClick":"add_library",
+    					"list_field":"library",
+    					"field":"libraries"
+				    }   
+				}
             },
             {
                 "endpoint": "/libraries",
@@ -1760,7 +1915,7 @@
                 }
             }
         ]
-    },
+    },    
     "footer": [
         {
             "type": "github",
