@@ -1869,7 +1869,7 @@
     					{
     						"name":"WikiPathway_2021_Human_lncRNA",
     						"node":"WikiPathway 2021 Human lncRNA"
-    					},
+    					}
 				    ],
 				    "default_options":{
 					    "term_limit":5,
