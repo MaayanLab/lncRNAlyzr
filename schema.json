@@ -1913,8 +1913,336 @@
                 "props": {
                     "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/Help.md"
                 }
-            }
-        ]
+            },
+	    [{
+	        "height": 100,
+	        "href": "https://depmap.org/portal/achilles/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/depmap.svg",
+	        "label": "Project Achilles",
+	        "props": {
+	            "libraries": [{
+	                    "library": "Achilles_fitness_decrease_lncRNA",
+	                    "term_limit": 5
+	                }, {
+	                    "library": "Achilles_fitness_increase_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Achilles decrease", "Achilles increase"]
+	        },
+	        "width": 90
+	    }, {
+	        "height": 100,
+	        "href": "https://hpo.jax.org/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/hpo.png",
+	        "label": "Human Phenotype Ontology",
+	        "props": {
+	            "libraries": [{
+	                    "library": "Human_Phenotype_Ontology_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Human Phenotype Ontology"]
+	        },
+	        "width": 80
+	    }, {
+	        "height": 100,
+	        "href": "http://www.informatics.jax.org",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/mgi.png",
+	        "label": "Mouse Genome informatics",
+	        "props": {
+	            "libraries": [{
+	                    "library": "MGI_Mammalian_Phenotype_Level_4_2021_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["MGI"]
+	        },
+	        "width": 80
+	    }, {
+	        "height": 100,
+	        "href": "http://geneontology.org/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/go-logo.png",
+	        "label": "Gene Ontology",
+	        "props": {
+	            "libraries": [{
+	                    "library": "GO_Biological_Process_2021_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["GOBP"]
+	        },
+	        "width": 100
+	    }, {
+	        "height": 100,
+	        "href": "https://www.ebi.ac.uk/interpro/entry/pfam",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/Pfam_logo.png",
+	        "label": "Pfam",
+	        "props": {
+	            "libraries": [{
+	                    "library": "Pfam_InterPro_Domains_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Pfam"]
+	        },
+	        "width": 80
+	    }, {
+	        "height": 100,
+	        "href": "https://hubmapconsortium.github.io/ccf-asct-reporter/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/HuBMAP.png",
+	        "label": "HuBMAP",
+	        "props": {
+	            "libraries": [{
+	                    "library": "HuBMAP_ASCTplusB_augmented_2022_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["HuBMAP ASCTplusB"]
+	        },
+	        "width": 100
+	    }, {
+	        "height": 100,
+	        "href": "http://biogps.org/downloads/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/biogps_logo.png",
+	        "label": "Human Gene Atlas",
+	        "props": {
+	            "libraries": [{
+	                    "library": "Human_Gene_Atlas_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Human Gene Atlas"]
+	        },
+	        "width": 80
+	    }, {
+	        "height": 80,
+	        "href": "https://www.genome.jp/kegg/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/kegg.png",
+	        "label": "KEGG Pathway",
+	        "props": {
+	            "libraries": [{
+	                    "library": "KEGG_2021_Human_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["KEGG"]
+	        },
+	        "width": 60
+	    }, {
+	        "height": 100,
+	        "href": "https://www.wikipathways.org",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/wiki.png",
+	        "label": "WikiPathways",
+	        "props": {
+	            "libraries": [{
+	                    "library": "WikiPathway_2021_Human_lncRNA",
+	                    "term_limit": 5
+	                }, {
+	                    "library": "PFOCR_Pathways_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["WikiPathway 2021 Human", "PFOCR"]
+	        },
+	        "width": 60
+	    }, {
+	        "height": 100,
+	        "href": "https://maayanlab.cloud/archs4",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/archs4.png",
+	        "label": "ARCHS4",
+	        "props": {
+	            "libraries": [{
+	                    "library": "ARCHS4_TFs_Coexp_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["ARCHS4"]
+	        },
+	        "width": 70
+	    }, {
+	        "height": 90,
+	        "href": "https://reactome.org",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/reactome.png",
+	        "label": "Reactome",
+	        "props": {
+	            "libraries": [{
+	                    "library": "Reactome_2022_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Reactome 2022"]
+	        },
+	        "width": 90
+	    }, {
+	        "height": 100,
+	        "href": "https://www.ebi.ac.uk/gwas/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/GWAS_Catalog.png",
+	        "label": "GWAS Catalog",
+	        "props": {
+	            "libraries": [{
+	                    "library": "GWAS_Catalog_2019_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["GWAS"]
+	        },
+	        "width": 90
+	    }, {
+	        "height": 100,
+	        "href": "https://www.grnpedia.org/trrust/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/TRRUST.jpeg",
+	        "label": "TRRUST",
+	        "props": {
+	            "libraries": [{
+	                    "library": "TRRUST_Transcription_Factors_2019_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["TRRUST"]
+	        },
+	        "width": 120
+	    }, {
+	        "height": 100,
+	        "href": "https://maayanlab.cloud/chea3/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/chea3.png",
+	        "label": "ChEA3",
+	        "props": {
+	            "libraries": [{
+	                    "library": "ChEA_2022_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["ChEA3"]
+	        },
+	        "width": 40
+	    }, {
+	        "height": 100,
+	        "href": "https://tabula-sapiens-portal.ds.czbiohub.org/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/tabula_sapiens.png",
+	        "label": "Tabula Sapiens",
+	        "props": {
+	            "libraries": [{
+	                    "library": "Tabula_Sapiens_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Tabula Sapiens"]
+	        },
+	        "width": 100
+	    }, {
+	        "height": 100,
+	        "href": "https://tabula-muris.ds.czbiohub.org/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/tabula_muris.png",
+	        "label": "Tabula Muris",
+	        "props": {
+	            "libraries": [{
+	                    "library": "Tabula_Muris_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Tabula Muris"]
+	        },
+	        "width": 100
+	    }, {
+	        "height": 100,
+	        "href": "https://sites.broadinstitute.org/ccle",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/ccle.jpg",
+	        "label": "CCLE Proteomics",
+	        "props": {
+	            "libraries": [{
+	                    "library": "CCLE_Proteomics_2020_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Proteomics Drug Atlas 2023"]
+	        },
+	        "width": 100
+	    }, {
+	        "height": 100,
+	        "href": "https://descartes.brotmanbaty.org/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/descartes.png",
+	        "label": "Descartes",
+	        "props": {
+	            "libraries": [{
+	                    "library": "Descartes_Cell_Types_and_Tissue_2021_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Descartes"]
+	        },
+	        "width": 80
+	    }, {
+	        "height": 100,
+	        "href": "https://www.disgenet.org/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/disgenet.png",
+	        "label": "DisGeNET",
+	        "props": {
+	            "libraries": [{
+	                    "library": "DisGeNET_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["DisGeNET"]
+	        },
+	        "width": 100
+	    }, {
+	        "height": 100,
+	        "href": "https://fantom.gsc.riken.jp/",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/FANTOM.png",
+	        "label": "FANTOM",
+	        "props": {
+	            "libraries": [{
+	                    "library": "FANTOM6_lncRNA_KD_DEGs_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["FANTOM"]
+	        },
+	        "width": 40
+	    }, {
+	        "height": 100,
+	        "href": "https://diseases.jensenlab.org/Search",
+	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/JENSEN_Diseases.png",
+	        "label": "Jensen Diseases",
+	        "props": {
+	            "libraries": [{
+	                    "library": "Jensen_DISEASES_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Jensen lab DISEASES"]
+	        },
+	        "width": 100
+	    }, {
+	        "height": 100,
+	        "href": "https://kinase-library.phosphosite.org/site",
+	        "icon": "https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/The_Kinase_Library.png",
+	        "label": "The Kinase Library",
+	        "props": {
+	            "libraries": [{
+	                    "library": "The_Kinase_Library_2023_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["The Kinase Library"]
+	        },
+	        "width": 40
+	    }, {
+	        "height": 100,
+	        "icon": "https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/Proteomics_Drug_Atlas.png",
+	        "label": "Proteomics Drug Atlas",
+	        "props": {
+	            "libraries": [{
+	                    "library": "Proteomics_Drug_Atlas_2023_lncRNA",
+	                    "term_limit": 5
+	                }
+	            ],
+	            "relation": ["Proteomics Drug Atlas 2023"]
+	        },
+	        "width": 40
+	    }
+	]    
     },    
     "footer": [
         {
