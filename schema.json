@@ -1729,7 +1729,7 @@
                 "type": "page",
                 "component": "KnowledgeGraph",
                 "props": {
-                    "init_function": "initialize_kg"
+                    "init_function": "initialize_kg",
                     "initial_query":{
     					"start":"ARCHS4_TFs_Coexp_lncRNA",
     					"start_term":"DANCR",
