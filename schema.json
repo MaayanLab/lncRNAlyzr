@@ -1,2273 +1,1754 @@
 {
-    "nodes": [
-        {
-            "node": "ARCHS4 TFs Coexpression lncRNA",
-            "example": [
-                "22RV1 PROSTATE TenPx24",
-                "697 HAEMATOPOIETIC AND LYMPHOID TISSUE TenPx30"
-            ],
-            "display": [
-                {
-                    "label": "ARCHS4 TFs Coexpression lncRNA ID",
-                    "text": "${id}",
+    "edges": [{
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "ChEA 2022 lncRNA",
-            "example": [
-                "BP1 19119308 ChIP-ChIP Hs578T Human",
-                "FOXP1 22492998 ChIP-Seq STRATIUM Mouse"
-            ],
-            "display": [
-                {
-                    "label": "ChEA 2022 lncRNA ID",
-                    "text": "${id}",
+                }, {
+                    "label": "target",
+                    "text": "${target}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
                     "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Descartes lncRNA",
-            "example": [
-                "Acinar cells in Pancreas",
-                "Adrenocortical cells in Adrenal"
-            ],
-            "display": [
-                {
-                    "label": "Descartes lncRNA ID",
-                    "text": "${id}",
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "DisGeNET lncRNA",
-            "example": [
-                "46, XX Testicular Disorders of Sex Development",
-                "46, XY Disorders of Sex Development"
-            ],
-            "display": [
-                {
-                    "label": "DisGeNET lncRNA ID",
-                    "text": "${id}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "FANTOM lncRNA",
-            "example": [
-                "A1BG-AS1-ASO_G0268895_01-DEGs Up",
-                "A1BG-AS1-ASO_G0268895_01-DEGs Down"
-            ],
-            "display": [
-                {
-                    "label": "FANTOM lncRNA ID",
-                    "text": "${id}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Gene",
-            "example": [
-                "VPS9D1-AS1",
-                "KIFC1"
-            ],
-            "display": [
-                {
-                    "label": "Gene ID",
-                    "text": "${id}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "acc",
-                    "text": "${acc}",
-                    "type": "text"
-                },
-                {
-                    "label": "uri",
-                    "text": "${uri}",
-                    "href": "${uri}",
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
                     "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "GO Biological Process lncRNA",
-            "example": [
-                "'de novo' posttranslational protein folding (GO:0051084)",
-                "2-oxoglutarate metabolic process (GO:0006103)"
-            ],
-            "display": [
-                {
-                    "label": "GO Biological Process lncRNA ID",
-                    "text": "${id}",
+            "match": ["ARCHS4"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "GWAS Catalog lncRNA",
-            "example": [
-                "Beta2-Glycoprotein I plasma levels",
-                "1,5-anhydroglucitol levels"
-            ],
-            "display": [
-                {
-                    "label": "GWAS Catalog lncRNA ID",
-                    "text": "${id}",
+                }, {
+                    "label": "target",
+                    "text": "${target}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
                     "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "HuBMAP ASCTplusB lncRNA",
-            "example": [
-                "Paneth Cell Of Epithelium Proper Of Small intestine - Small Intestine",
-                "Duodenal Goblet cell - Small Intestine"
-            ],
-            "display": [
-                {
-                    "label": "HuBMAP ASCTplusB lncRNA ID",
-                    "text": "${id}",
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Human Gene Atlas lncRNA",
-            "example": [
-                "Thyroid",
-                "CD33+ Myeloid"
-            ],
-            "display": [
-                {
-                    "label": "Human Gene Atlas lncRNA ID",
-                    "text": "${id}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Human Phenotype Ontology lncRNA",
-            "example": [
-                "Abnormality of B cell number (HP:0010975)",
-                "B lymphocytopenia (HP:0010976)"
-            ],
-            "display": [
-                {
-                    "label": "Human Phenotype Ontology lncRNA ID",
-                    "text": "${id}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Jensen Lab DISEASES lncRNA",
-            "example": [
-                "3-M syndrome",
-                "3-Methylcrotonyl-CoA carboxylase deficiency"
-            ],
-            "display": [
-                {
-                    "label": "Jensen Lab DISEASES lncRNA ID",
-                    "text": "${id}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "KEGG Pathway lncRNA",
-            "example": [
-                "ABC transporters",
-                "AGE-RAGE signaling pathway in diabetic complications"
-            ],
-            "display": [
-                {
-                    "label": "KEGG Pathway lncRNA ID",
-                    "text": "${id}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "uri",
-                    "text": "${uri}",
-                    "href": "${uri}",
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
                     "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "LINCS Chem Pert Consensus Sigs lncRNA",
-            "example": [
-                "Afatinib Up",
-                "Erlotinib Up"
-            ],
-            "display": [
-                {
-                    "label": "LINCS Chem Pert Consensus Sigs lncRNA ID",
-                    "text": "${id}",
+            "match": ["ChEA3"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "LINCS CRISPR KO Consensus Sigs lncRNA",
-            "example": [
-                "A1BG Up",
-                "A1CF Up"
-            ],
-            "display": [
-                {
-                    "label": "LINCS CRISPR KO Consensus Sigs lncRNA ID",
-                    "text": "${id}",
+            "match": ["Descartes"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "MGI Mammalian Phenotype Level 4 2021 lncRNA",
-            "example": [
-                "abdominal situs ambiguus MP:0011250",
-                "abdominal situs inversus MP:0011249"
-            ],
-            "display": [
-                {
-                    "label": "MGI Mammalian Phenotype Level 4 2021 lncRNA ID",
-                    "text": "${id}",
+            "match": ["DisGeNET"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Pfam lncRNA",
-            "example": [
-                "abdominal situs ambiguus MP:0011250",
-                "abdominal situs inversus MP:0011249"
-            ],
-            "display": [
-                {
-                    "label": "Pfam lncRNA ID",
-                    "text": "${id}",
+            "match": ["FANTOM"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "PFOCR Pathways lncRNA",
-            "example": [
-                "PMC102186 Mb2400926009",
-                "PMC1064894 Ar1469-3"
-            ],
-            "display": [
-                {
-                    "label": "PFOCR Pathways lncRNA ID",
-                    "text": "${id}",
+            "match": ["GOBP"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Project Achilles Decrease lncRNA",
-            "example": [
-                "22RV1-prostate",
-                "697-haematopoietic and lymphoid tissue"
-            ],
-            "display": [
-                {
-                    "label": "Project Achilles Decrease lncRNA ID",
-                    "text": "${id}",
+            "match": ["GWAS"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Project Achilles Increase lncRNA",
-            "example": [
-                "22RV1-prostate",
-                "697-haematopoietic and lymphoid tissue"
-            ],
-            "display": [
-                {
-                    "label": "Project Achilles Increase lncRNA ID",
-                    "text": "${id}",
+            "match": ["HuBMAP ASCTplusB"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Proteomics Drug Atlas 2023 lncRNA",
-            "example": [
-                "SR 142948 Up",
-                "SR 142948 Down"
-            ],
-            "display": [
-                {
-                    "label": "Proteomics Drug Atlas 2023 lncRNA ID",
-                    "text": "${id}",
+            "match": ["Human Gene Atlas"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Reactome 2022 lncRNA",
-            "example": [
-                "2-LTR Circle Formation R-HSA-164843",
-                "GAG Synthesis Requires Tetrasaccharide Linker Sequence R-HSA-1971475"
-            ],
-            "display": [
-                {
-                    "label": "Reactome 2022 lncRNA ID",
-                    "text": "${id}",
+            "match": ["Human Phenotype Ontology"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Tabula Muris lncRNA",
-            "example": [
-                "B Cell Spleen CL:0000236",
-                "T Cell Spleen CL:0000084"
-            ],
-            "display": [
-                {
-                    "label": "Tabula Muris lncRNA ID",
-                    "text": "${id}",
+            "match": ["Jensen Lab DISEASES"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "Tabula Sapiens lncRNA",
-            "example": [
-                "Bladder-bladder Urothelial Cell",
-                "Bladder-capillary Endothelial Cell"
-            ],
-            "display": [
-                {
-                    "label": "Tabula Sapiens lncRNA ID",
-                    "text": "${id}",
+            "match": ["KEGG"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "The Kinase Library 2023 lncRNA",
-            "example": [
-                "AAK1",
-                "ACVR2A"
-            ],
-            "display": [
-                {
-                    "label": "The Kinase Library 2023 lncRNA ID",
-                    "text": "${id}",
+            "match": ["LINCS Chem Pert Consensus Sigs"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "TRRUST TFs 2019 lncRNA",
-            "example": [
-                "AATF mouse",
-                "ABL1 human"
-            ],
-            "display": [
-                {
-                    "label": "TRRUST TFs 2019 lncRNA ID",
-                    "text": "${id}",
+            "match": ["LINCS CRISPR KO Consensus Sigs"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ],
-            "color": "#c5e1a5"
-        },
-        {
-            "node": "WikiPathway 2021 Human lncRNA",
-            "example": [
-                "15q11.2 copy number variation syndrome WP4940",
-                "15q13.3 copy number variation syndrome WP4942"
-            ],
-            "display": [
-                {
-                    "label": "WikiPathway 2021 Human lncRNA ID",
-                    "text": "${id}",
+            "match": ["MGI"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
                     "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
                     "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
                 }
             ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
+            "match": ["Pfam"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }
             ],
-            "color": "#c5e1a5"
+            "match": ["PFOCR"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }
+            ],
+            "match": ["Achilles Decrease"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }
+            ],
+            "match": ["Achilles Increase"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }
+            ],
+            "match": ["Proteomics Drug Atlas 2023"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }
+            ],
+            "match": ["Reactome 2022"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }
+            ],
+            "match": ["Tabula Muris"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }
+            ],
+            "match": ["Tabula Sapiens"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }
+            ],
+            "match": ["The Kinase Library"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }
+            ],
+            "match": ["TRRUST"],
+            "selected": true
+        }, {
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "href": "${resource}",
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }
+            ],
+            "match": ["WikiPathway 2021 Human"],
+            "selected": true
         }
     ],
-    "edges": [
-        {
-            "match": [
-                "ARCHS4"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "ChEA3"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Descartes"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "DisGeNET"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "FANTOM"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "GOBP"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "GWAS"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "HuBMAP ASCTplusB"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Human Gene Atlas"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Human Phenotype Ontology"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Jensen Lab DISEASES"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "KEGG"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "LINCS Chem Pert Consensus Sigs"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "LINCS CRISPR KO Consensus Sigs"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "MGI"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Pfam"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "PFOCR"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Achilles Decrease"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Achilles Increase"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Proteomics Drug Atlas 2023"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Reactome 2022"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Tabula Muris"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "Tabula Sapiens"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "The Kinase Library"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "TRRUST"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
-        },
-        {
-            "match": [
-                "WikiPathway 2021 Human"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "source label",
-                    "text": "${source_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "target label",
-                    "text": "${target_label}",
-                    "type": "text"
-                },
-                {
-                    "label": "resource",
-                    "text": "${resource}",
-                    "href": "${resource}",
-                    "type": "link"
-                }
-            ]
+    "footer": [{
+            "code": "https://github.com/MaayanLab/enrichr-kg",
+            "issues": "https://github.com/MaayanLab/enrichr-kg/issues",
+            "type": "github"
+        }, {
+            "alt": "MaayanLab",
+            "height": 125,
+            "href": "https://labs.icahn.mssm.edu/maayanlab/",
+            "key": "lab_icon",
+            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/maayan-lab.jpg",
+            "type": "icon",
+            "width": 150
+        }, {
+            "alt": "COB",
+            "height": 125,
+            "href": "https://icahn.mssm.edu/research/bioinformatics",
+            "key": "center_icon",
+            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/ISMMS_Center_Bioinformatics_RGB_Vrtl.jpg",
+            "type": "icon",
+            "width": 200
         }
     ],
     "header": {
-        "title": "lncEnrichr-KG",
         "background": {
             "backgroundColor": "F4DECB"
         },
         "icon": {
-            "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo-new.png",
-            "favicon": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo-new.png",
             "alt": "lncEnrichr-KG logo",
+            "favicon": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo-new.png",
+            "height": 60,
             "key": "lncenrichr_kg_logo",
-            "width": 60,
-            "height": 60
+            "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo-new.png",
+            "width": 60
         },
-        "tabs": [
-            {
+        "subheader": [{
+                "height": 100,
+                "href": "https://depmap.org/portal/achilles/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/depmap.svg",
+                "label": "Project Achilles",
+                "props": {
+                    "libraries": [{
+                            "library": "Achilles_fitness_decrease_lncRNA",
+                            "term_limit": 5
+                        }, {
+                            "library": "Achilles_fitness_increase_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Achilles decrease", "Achilles increase"]
+                },
+                "width": 90
+            }, {
+                "height": 100,
+                "href": "https://hpo.jax.org/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/hpo.png",
+                "label": "Human Phenotype Ontology",
+                "props": {
+                    "libraries": [{
+                            "library": "Human_Phenotype_Ontology_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Human Phenotype Ontology"]
+                },
+                "width": 80
+            }, {
+                "height": 100,
+                "href": "http://www.informatics.jax.org",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/mgi.png",
+                "label": "Mouse Genome informatics",
+                "props": {
+                    "libraries": [{
+                            "library": "MGI_Mammalian_Phenotype_Level_4_2021_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["MGI"]
+                },
+                "width": 80
+            }, {
+                "height": 100,
+                "href": "http://geneontology.org/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/go-logo.png",
+                "label": "Gene Ontology",
+                "props": {
+                    "libraries": [{
+                            "library": "GO_Biological_Process_2021_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["GOBP"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
+                "href": "https://www.ebi.ac.uk/interpro/entry/pfam",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/Pfam_logo.png",
+                "label": "Pfam",
+                "props": {
+                    "libraries": [{
+                            "library": "Pfam_InterPro_Domains_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Pfam"]
+                },
+                "width": 80
+            }, {
+                "height": 100,
+                "href": "https://hubmapconsortium.github.io/ccf-asct-reporter/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/HuBMAP.png",
+                "label": "HuBMAP",
+                "props": {
+                    "libraries": [{
+                            "library": "HuBMAP_ASCTplusB_augmented_2022_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["HuBMAP ASCTplusB"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
+                "href": "http://biogps.org/downloads/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/biogps_logo.png",
+                "label": "Human Gene Atlas",
+                "props": {
+                    "libraries": [{
+                            "library": "Human_Gene_Atlas_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Human Gene Atlas"]
+                },
+                "width": 80
+            }, {
+                "height": 80,
+                "href": "https://www.genome.jp/kegg/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/kegg.png",
+                "label": "KEGG Pathway",
+                "props": {
+                    "libraries": [{
+                            "library": "KEGG_2021_Human_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["KEGG"]
+                },
+                "width": 60
+            }, {
+                "height": 100,
+                "href": "https://www.wikipathways.org",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/wiki.png",
+                "label": "WikiPathways",
+                "props": {
+                    "libraries": [{
+                            "library": "WikiPathway_2021_Human_lncRNA",
+                            "term_limit": 5
+                        }, {
+                            "library": "PFOCR_Pathways_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["WikiPathway 2021 Human", "PFOCR"]
+                },
+                "width": 60
+            }, {
+                "height": 100,
+                "href": "https://maayanlab.cloud/archs4",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/archs4.png",
+                "label": "ARCHS4",
+                "props": {
+                    "libraries": [{
+                            "library": "ARCHS4_TFs_Coexp_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["ARCHS4"]
+                },
+                "width": 70
+            }, {
+                "height": 90,
+                "href": "https://reactome.org",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/reactome.png",
+                "label": "Reactome",
+                "props": {
+                    "libraries": [{
+                            "library": "Reactome_2022_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Reactome 2022"]
+                },
+                "width": 90
+            }, {
+                "height": 100,
+                "href": "https://www.ebi.ac.uk/gwas/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/GWAS_Catalog.png",
+                "label": "GWAS Catalog",
+                "props": {
+                    "libraries": [{
+                            "library": "GWAS_Catalog_2019_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["GWAS"]
+                },
+                "width": 90
+            }, {
+                "height": 100,
+                "href": "https://www.grnpedia.org/trrust/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/TRRUST.jpeg",
+                "label": "TRRUST",
+                "props": {
+                    "libraries": [{
+                            "library": "TRRUST_Transcription_Factors_2019_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["TRRUST"]
+                },
+                "width": 120
+            }, {
+                "height": 100,
+                "href": "https://maayanlab.cloud/chea3/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/chea3.png",
+                "label": "ChEA3",
+                "props": {
+                    "libraries": [{
+                            "library": "ChEA_2022_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["ChEA3"]
+                },
+                "width": 40
+            }, {
+                "height": 100,
+                "href": "https://tabula-sapiens-portal.ds.czbiohub.org/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/tabula_sapiens.png",
+                "label": "Tabula Sapiens",
+                "props": {
+                    "libraries": [{
+                            "library": "Tabula_Sapiens_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Tabula Sapiens"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
+                "href": "https://tabula-muris.ds.czbiohub.org/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/tabula_muris.png",
+                "label": "Tabula Muris",
+                "props": {
+                    "libraries": [{
+                            "library": "Tabula_Muris_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Tabula Muris"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
+                "href": "https://sites.broadinstitute.org/ccle",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/ccle.jpg",
+                "label": "CCLE Proteomics",
+                "props": {
+                    "libraries": [{
+                            "library": "CCLE_Proteomics_2020_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["CCLE"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
+                "href": "https://descartes.brotmanbaty.org/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/descartes.png",
+                "label": "Descartes",
+                "props": {
+                    "libraries": [{
+                            "library": "Descartes_Cell_Types_and_Tissue_2021_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Descartes"]
+                },
+                "width": 80
+            }, {
+                "height": 100,
+                "href": "https://www.disgenet.org/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/disgenet.png",
+                "label": "DisGeNET",
+                "props": {
+                    "libraries": [{
+                            "library": "DisGeNET_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["DisGeNET"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
+                "href": "https://fantom.gsc.riken.jp/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/FANTOM.png",
+                "label": "FANTOM",
+                "props": {
+                    "libraries": [{
+                            "library": "FANTOM6_lncRNA_KD_DEGs_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["FANTOM"]
+                },
+                "width": 40
+            }, {
+                "height": 100,
+                "href": "https://diseases.jensenlab.org/Search",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/JENSEN_Diseases.png",
+                "label": "Jensen Diseases",
+                "props": {
+                    "libraries": [{
+                            "library": "Jensen_DISEASES_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Jensen lab DISEASES"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
+                "href": "https://kinase-library.phosphosite.org/site",
+                "icon": "https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/The_Kinase_Library.png",
+                "label": "The Kinase Library",
+                "props": {
+                    "libraries": [{
+                            "library": "The_Kinase_Library_2023_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["The Kinase Library"]
+                },
+                "width": 40
+            }, {
+                "height": 100,
+                "icon": "https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/Proteomics_Drug_Atlas.png",
+                "label": "Proteomics Drug Atlas",
+                "props": {
+                    "libraries": [{
+                            "library": "Proteomics_Drug_Atlas_2023_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Proteomics Drug Atlas 2023"]
+                },
+                "width": 40
+            }
+        ],
+        "tabs": [{
+                "component": "KnowledgeGraph",
                 "endpoint": "/search",
                 "label": "Term & Gene Search",
-                "type": "page",
-                "component": "KnowledgeGraph",
                 "props": {
                     "init_function": "initialize_kg",
-                    "initial_query":{
-    					"start":"ARCHS4_TFs_Coexp_lncRNA",
-    					"start_term":"DANCR",
-    					"start_field":"label",
-    					"relation":"ARCHS4 TFs Coexp lncRNA"
-				    }
-                }
-            },
-            {
+                    "initial_query": {
+                        "relation": "ARCHS4 TFs Coexp lncRNA",
+                        "start": "ARCHS4_TFs_Coexp_lncRNA",
+                        "start_field": "label",
+                        "start_term": "DANCR"
+                    }
+                },
+                "type": "page"
+            }, {
+                "component": "Enrichment",
                 "endpoint": "/",
                 "label": "Enrichment Analysis",
-                "type": "page",
-                "component": "Enrichment",
                 "props": {
-                    "init_function": "initialize_enrichment",
-                    "description": "Enter a list of genes below to perform enrichment analysis using [Independent Enrichment Analysis](https://appyters.maayanlab.cloud/Independent_Enrichment_Analysis/).",
-                    "placeholder":"Enter newline separated gene sets",
-                    "example":{
-			"gene_set":"TTC39C-AS1\nLINC02768\nENSG00000287557\nFSIP2-AS1\nPRICKLE2-DT\nENSG00000282304\nNHS-AS1\nENSG00000248676\nLINC02216\nENSG00000288929\nLINC02653\nENSG00000249771\nLINC02749\nVPS13C-DT\nENSG00000286981",
-			"libraries":[
-				{
-					"library":"CCLE_Proteomics_2020_lncRNA",
-					"term_limit":5
-				},
-				{
-					"library":"ARCHS4_TFs_Coexp_lncRNA",
-					"term_limit":5
-				},
-                            	{
-					"library":"DisGeNET_lncRNA",
-                                	"term_limit":5
-				}
-			],
-			"gene_degree":3
+                    "default_options": {
+                        "libraries": [{
+                                "library": "ARCHS4_TFs_Coexp_lncRNA",
+                                "term_limit": 5
+                            }, {
+                                "library": "Achilles_fitness_decrease_lncRNA",
+                                "term_limit": 5
+                            }, {
+                                "library": "Achilles_fitness_increase_lncRNA",
+                                "term_limit": 5
+                            }
+                        ],
+                        "min_lib": 1,
+                        "term_limit": 5
                     },
-                    "libraries":[
-    					{
-    						"name":"ARCHS4_TFs_Coexp_lncRNA",
-    						"node":"ARCHS4 TFs Coexp lncRNA"
-    					},
-    					{
-    						"name":"Achilles_fitness_decrease_lncRNA",
-    						"node":"Achilles fitness decrease lncRNA"
-    					},
-    					{
-    						"name":"Achilles_fitness_increase_lncRNA",
-    						"node":"Achilles fitness increase lncRNA"
-    					},
-    					{
-    						"name":"CCLE_Proteomics_2020_lncRNA",
-    						"node":"CCLE Proteomics 2020 lncRNA"
-    					},
-    					{
-    						"name":"ChEA_2022_lncRNA",
-    						"node":"ChEA 2022 lncRNA"
-    					},
-    					{
-    						"name":"Descartes_Cell_Types_and_Tissue_2021_lncRNA",
-    						"node":"Descartes Cell Types and Tissue 2021 lncRNA"
-    					},
-    					{
-    						"name":"CCLE_Proteomics_2020",
-    						"node":"CCLE Proteomics 2020"
-    					},
-    					{
-    						"name":"DisGeNET_lncRNA",
-    						"node":"DisGeNET lncRNA"
-    					},
-    					{
-    						"name":"FANTOM6_lncRNA_KD_DEGs_lncRNA",
-    						"node":"FANTOM6 lncRNA KD DEGS lncRNA"
-    					},
-    					{
-    						"name":"GO_Biological_Process_2021_lncRNA",
-    						"node":"GO Biological Process 2021 lncRNA"
-    					},
-    					{
-    						"name":"GWAS_Catalog_2019_lncRNA",
-    						"node":"GWAS Catalog 2019 lncRNA"
-    					},
-    					{
-    						"name":"HuBMAP_ASCTplusB_augmented_2022_lncRNA",
-    						"node":"HuBMAP ASCTplusB augmented 2022 lncRNA"
-    					},
-    					{
-    						"name":"Human_Gene_Atlas_lncRNA",
-    						"node":"Human Gene Atlas lncRNA"
-    					},
-    					{
-    						"name":"Human_Phenotype_Ontology_lncRNA",
-    						"node":"Human Phenotype Ontology lncRNA"
-    					},
-    					{
-    						"name":"Jensen_DISEASES_lncRNA",
-    						"node":"Jensen DISEASES lncRNA"
-    					},
-    					{
-    						"name":"KEGG_2021_Human_lncRNA",
-    						"node":"KEGG 2021 Human lncRNA"
-    					},
-    					{
-    						"name":"MGI_Mammalian_Phenotype_Level_4_2021_lncRNA",
-    						"node":"MGI Mammalian Phenotype Level 4 2021 lncRNA"
-    					},
-    					{
-    						"name":"PFOCR_Pathways_lncRNA",
-    						"node":"PFOCR Pathways lncRNA"
-    					},
-    					{
-    						"name":"Pfam_InterPro_Domains_lncRNA",
-    						"node":"Pfam InterPro Domains lncRNA"
-    					},
-    					{
-    						"name":"Proteomics_Drug_Atlas_2023_lncRNA",
-    						"node":"Proteomics Drug Atlas 2023 lncRNA"
-    					},
-    					{
-    						"name":"Reactome_2022_lncRNA",
-    						"node":"Reactome 2022 lncRNA"
-    					},
-    					{
-    						"name":"TRRUST_Transcription_Factors_2019_lncRNA",
-    						"node":"TRRUST Transcription Factors 2019 lncRNA"
-    					},
-    					{
-    						"name":"Tabula_Muris_lncRNA",
-    						"node":"Tabula Muris lncRNA"
-    					},
-    					{
-    						"name":"Tabula_Sapiens_lncRNA",
-    						"node":"Tabula Sapiens lncRNA"
-    					},
-    					{
-    						"name":"The_Kinase_Library_2023_lncRNA",
-    						"node":"The Kinase Library 2023 lncRNA"
-    					},
-    					{
-    						"name":"WikiPathway_2021_Human_lncRNA",
-    						"node":"WikiPathway 2021 Human lncRNA"
-    					}
-				    ],
-				    "default_options":{
-					    "term_limit":5,
-					    "min_lib":1,
-					    "libraries":[
-    						{
-    							"library":"ARCHS4_TFs_Coexp_lncRNA",
-    							"term_limit":5
-    						},
-    						{
-    							"library":"Achilles_fitness_decrease_lncRNA",
-    							"term_limit":5
-    						},
-    						{
-    							"library":"Achilles_fitness_increase_lncRNA",
-    							"term_limit":5
-    						}
-					    ]
-				    },
-				    "subheader":{
-    					"onClick":"add_library",
-    					"list_field":"library",
-    					"field":"libraries"
-				    }   
-				}
-            },
-            {
+                    "description": "Enter a list of genes below to perform enrichment analysis using [Independent Enrichment Analysis](https://appyters.maayanlab.cloud/Independent_Enrichment_Analysis/).",
+                    "example": {
+                        "gene_degree": 3,
+                        "gene_set": "TTC39C-AS1\nLINC02768\nENSG00000287557\nFSIP2-AS1\nPRICKLE2-DT\nENSG00000282304\nNHS-AS1\nENSG00000248676\nLINC02216\nENSG00000288929\nLINC02653\nENSG00000249771\nLINC02749\nVPS13C-DT\nENSG00000286981",
+                        "libraries": [{
+                                "library": "CCLE_Proteomics_2020_lncRNA",
+                                "term_limit": 5
+                            }, {
+                                "library": "ARCHS4_TFs_Coexp_lncRNA",
+                                "term_limit": 5
+                            }, {
+                                "library": "DisGeNET_lncRNA",
+                                "term_limit": 5
+                            }
+                        ]
+                    },
+                    "init_function": "initialize_enrichment",
+                    "libraries": [{
+                            "name": "ARCHS4_TFs_Coexp_lncRNA",
+                            "node": "ARCHS4 TFs Coexp lncRNA"
+                        }, {
+                            "name": "Achilles_fitness_decrease_lncRNA",
+                            "node": "Achilles fitness decrease lncRNA"
+                        }, {
+                            "name": "Achilles_fitness_increase_lncRNA",
+                            "node": "Achilles fitness increase lncRNA"
+                        }, {
+                            "name": "CCLE_Proteomics_2020_lncRNA",
+                            "node": "CCLE Proteomics 2020 lncRNA"
+                        }, {
+                            "name": "ChEA_2022_lncRNA",
+                            "node": "ChEA 2022 lncRNA"
+                        }, {
+                            "name": "Descartes_Cell_Types_and_Tissue_2021_lncRNA",
+                            "node": "Descartes Cell Types and Tissue 2021 lncRNA"
+                        }, {
+                            "name": "CCLE_Proteomics_2020",
+                            "node": "CCLE Proteomics 2020"
+                        }, {
+                            "name": "DisGeNET_lncRNA",
+                            "node": "DisGeNET lncRNA"
+                        }, {
+                            "name": "FANTOM6_lncRNA_KD_DEGs_lncRNA",
+                            "node": "FANTOM6 lncRNA KD DEGS lncRNA"
+                        }, {
+                            "name": "GO_Biological_Process_2021_lncRNA",
+                            "node": "GO Biological Process 2021 lncRNA"
+                        }, {
+                            "name": "GWAS_Catalog_2019_lncRNA",
+                            "node": "GWAS Catalog 2019 lncRNA"
+                        }, {
+                            "name": "HuBMAP_ASCTplusB_augmented_2022_lncRNA",
+                            "node": "HuBMAP ASCTplusB augmented 2022 lncRNA"
+                        }, {
+                            "name": "Human_Gene_Atlas_lncRNA",
+                            "node": "Human Gene Atlas lncRNA"
+                        }, {
+                            "name": "Human_Phenotype_Ontology_lncRNA",
+                            "node": "Human Phenotype Ontology lncRNA"
+                        }, {
+                            "name": "Jensen_DISEASES_lncRNA",
+                            "node": "Jensen DISEASES lncRNA"
+                        }, {
+                            "name": "KEGG_2021_Human_lncRNA",
+                            "node": "KEGG 2021 Human lncRNA"
+                        }, {
+                            "name": "MGI_Mammalian_Phenotype_Level_4_2021_lncRNA",
+                            "node": "MGI Mammalian Phenotype Level 4 2021 lncRNA"
+                        }, {
+                            "name": "PFOCR_Pathways_lncRNA",
+                            "node": "PFOCR Pathways lncRNA"
+                        }, {
+                            "name": "Pfam_InterPro_Domains_lncRNA",
+                            "node": "Pfam InterPro Domains lncRNA"
+                        }, {
+                            "name": "Proteomics_Drug_Atlas_2023_lncRNA",
+                            "node": "Proteomics Drug Atlas 2023 lncRNA"
+                        }, {
+                            "name": "Reactome_2022_lncRNA",
+                            "node": "Reactome 2022 lncRNA"
+                        }, {
+                            "name": "TRRUST_Transcription_Factors_2019_lncRNA",
+                            "node": "TRRUST Transcription Factors 2019 lncRNA"
+                        }, {
+                            "name": "Tabula_Muris_lncRNA",
+                            "node": "Tabula Muris lncRNA"
+                        }, {
+                            "name": "Tabula_Sapiens_lncRNA",
+                            "node": "Tabula Sapiens lncRNA"
+                        }, {
+                            "name": "The_Kinase_Library_2023_lncRNA",
+                            "node": "The Kinase Library 2023 lncRNA"
+                        }, {
+                            "name": "WikiPathway_2021_Human_lncRNA",
+                            "node": "WikiPathway 2021 Human lncRNA"
+                        }
+                    ],
+                    "placeholder": "Enter newline separated gene sets",
+                    "subheader": {
+                        "field": "libraries",
+                        "list_field": "library",
+                        "onClick": "add_library"
+                    }
+                },
+                "type": "page"
+            }, {
+                "component": "Markdown",
                 "endpoint": "/libraries",
                 "label": "Libraries",
-                "type": "markdown",
-                "component": "Markdown",
                 "props": {
-                   "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/Library.md"
-                }
-            },
-            {
+                    "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/Library.md"
+                },
+                "type": "markdown"
+            }, {
+                "component": "Markdown",
                 "endpoint": "/help",
                 "label": "Help",
-                "type": "markdown",
-                "component": "Markdown",
                 "props": {
                     "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/Help.md"
-                }
+                },
+                "type": "markdown"
             }
-	]
-	    "subheader":[{
-	        "height": 100,
-	        "href": "https://depmap.org/portal/achilles/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/depmap.svg",
-	        "label": "Project Achilles",
-	        "props": {
-	            "libraries": [{
-	                    "library": "Achilles_fitness_decrease_lncRNA",
-	                    "term_limit": 5
-	                }, {
-	                    "library": "Achilles_fitness_increase_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["Achilles decrease", "Achilles increase"]
-	        },
-	        "width": 90
-	    }, {
-	        "height": 100,
-	        "href": "https://hpo.jax.org/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/hpo.png",
-	        "label": "Human Phenotype Ontology",
-	        "props": {
-	            "libraries": [{
-	                    "library": "Human_Phenotype_Ontology_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["Human Phenotype Ontology"]
-	        },
-	        "width": 80
-	    }, {
-	        "height": 100,
-	        "href": "http://www.informatics.jax.org",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/mgi.png",
-	        "label": "Mouse Genome informatics",
-	        "props": {
-	            "libraries": [{
-	                    "library": "MGI_Mammalian_Phenotype_Level_4_2021_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["MGI"]
-	        },
-	        "width": 80
-	    }, {
-	        "height": 100,
-	        "href": "http://geneontology.org/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/go-logo.png",
-	        "label": "Gene Ontology",
-	        "props": {
-	            "libraries": [{
-	                    "library": "GO_Biological_Process_2021_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["GOBP"]
-	        },
-	        "width": 100
-	    }, {
-	        "height": 100,
-	        "href": "https://www.ebi.ac.uk/interpro/entry/pfam",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/Pfam_logo.png",
-	        "label": "Pfam",
-	        "props": {
-	            "libraries": [{
-	                    "library": "Pfam_InterPro_Domains_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["Pfam"]
-	        },
-	        "width": 80
-	    }, {
-	        "height": 100,
-	        "href": "https://hubmapconsortium.github.io/ccf-asct-reporter/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/HuBMAP.png",
-	        "label": "HuBMAP",
-	        "props": {
-	            "libraries": [{
-	                    "library": "HuBMAP_ASCTplusB_augmented_2022_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["HuBMAP ASCTplusB"]
-	        },
-	        "width": 100
-	    }, {
-	        "height": 100,
-	        "href": "http://biogps.org/downloads/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/biogps_logo.png",
-	        "label": "Human Gene Atlas",
-	        "props": {
-	            "libraries": [{
-	                    "library": "Human_Gene_Atlas_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["Human Gene Atlas"]
-	        },
-	        "width": 80
-	    }, {
-	        "height": 80,
-	        "href": "https://www.genome.jp/kegg/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/kegg.png",
-	        "label": "KEGG Pathway",
-	        "props": {
-	            "libraries": [{
-	                    "library": "KEGG_2021_Human_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["KEGG"]
-	        },
-	        "width": 60
-	    }, {
-	        "height": 100,
-	        "href": "https://www.wikipathways.org",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/wiki.png",
-	        "label": "WikiPathways",
-	        "props": {
-	            "libraries": [{
-	                    "library": "WikiPathway_2021_Human_lncRNA",
-	                    "term_limit": 5
-	                }, {
-	                    "library": "PFOCR_Pathways_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["WikiPathway 2021 Human", "PFOCR"]
-	        },
-	        "width": 60
-	    }, {
-	        "height": 100,
-	        "href": "https://maayanlab.cloud/archs4",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/archs4.png",
-	        "label": "ARCHS4",
-	        "props": {
-	            "libraries": [{
-	                    "library": "ARCHS4_TFs_Coexp_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["ARCHS4"]
-	        },
-	        "width": 70
-	    }, {
-	        "height": 90,
-	        "href": "https://reactome.org",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/reactome.png",
-	        "label": "Reactome",
-	        "props": {
-	            "libraries": [{
-	                    "library": "Reactome_2022_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["Reactome 2022"]
-	        },
-	        "width": 90
-	    }, {
-	        "height": 100,
-	        "href": "https://www.ebi.ac.uk/gwas/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/GWAS_Catalog.png",
-	        "label": "GWAS Catalog",
-	        "props": {
-	            "libraries": [{
-	                    "library": "GWAS_Catalog_2019_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["GWAS"]
-	        },
-	        "width": 90
-	    }, {
-	        "height": 100,
-	        "href": "https://www.grnpedia.org/trrust/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/TRRUST.jpeg",
-	        "label": "TRRUST",
-	        "props": {
-	            "libraries": [{
-	                    "library": "TRRUST_Transcription_Factors_2019_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["TRRUST"]
-	        },
-	        "width": 120
-	    }, {
-	        "height": 100,
-	        "href": "https://maayanlab.cloud/chea3/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/chea3.png",
-	        "label": "ChEA3",
-	        "props": {
-	            "libraries": [{
-	                    "library": "ChEA_2022_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["ChEA3"]
-	        },
-	        "width": 40
-	    }, {
-	        "height": 100,
-	        "href": "https://tabula-sapiens-portal.ds.czbiohub.org/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/tabula_sapiens.png",
-	        "label": "Tabula Sapiens",
-	        "props": {
-	            "libraries": [{
-	                    "library": "Tabula_Sapiens_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["Tabula Sapiens"]
-	        },
-	        "width": 100
-	    }, {
-	        "height": 100,
-	        "href": "https://tabula-muris.ds.czbiohub.org/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/tabula_muris.png",
-	        "label": "Tabula Muris",
-	        "props": {
-	            "libraries": [{
-	                    "library": "Tabula_Muris_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["Tabula Muris"]
-	        },
-	        "width": 100
-	    }, {
-	        "height": 100,
-	        "href": "https://sites.broadinstitute.org/ccle",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/ccle.jpg",
-	        "label": "CCLE Proteomics",
-	        "props": {
-	            "libraries": [{
-	                    "library": "CCLE_Proteomics_2020_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["CCLE"]
-	        },
-	        "width": 100
-	    }, {
-	        "height": 100,
-	        "href": "https://descartes.brotmanbaty.org/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/descartes.png",
-	        "label": "Descartes",
-	        "props": {
-	            "libraries": [{
-	                    "library": "Descartes_Cell_Types_and_Tissue_2021_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["Descartes"]
-	        },
-	        "width": 80
-	    }, {
-	        "height": 100,
-	        "href": "https://www.disgenet.org/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/disgenet.png",
-	        "label": "DisGeNET",
-	        "props": {
-	            "libraries": [{
-	                    "library": "DisGeNET_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["DisGeNET"]
-	        },
-	        "width": 100
-	    }, {
-	        "height": 100,
-	        "href": "https://fantom.gsc.riken.jp/",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/FANTOM.png",
-	        "label": "FANTOM",
-	        "props": {
-	            "libraries": [{
-	                    "library": "FANTOM6_lncRNA_KD_DEGs_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["FANTOM"]
-	        },
-	        "width": 40
-	    }, {
-	        "height": 100,
-	        "href": "https://diseases.jensenlab.org/Search",
-	        "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/JENSEN_Diseases.png",
-	        "label": "Jensen Diseases",
-	        "props": {
-	            "libraries": [{
-	                    "library": "Jensen_DISEASES_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["Jensen lab DISEASES"]
-	        },
-	        "width": 100
-	    }, {
-	        "height": 100,
-	        "href": "https://kinase-library.phosphosite.org/site",
-	        "icon": "https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/The_Kinase_Library.png",
-	        "label": "The Kinase Library",
-	        "props": {
-	            "libraries": [{
-	                    "library": "The_Kinase_Library_2023_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["The Kinase Library"]
-	        },
-	        "width": 40
-	    }, {
-	        "height": 100,
-	        "icon": "https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/Proteomics_Drug_Atlas.png",
-	        "label": "Proteomics Drug Atlas",
-	        "props": {
-	            "libraries": [{
-	                    "library": "Proteomics_Drug_Atlas_2023_lncRNA",
-	                    "term_limit": 5
-	                }
-	            ],
-	            "relation": ["Proteomics Drug Atlas 2023"]
-	        },
-	        "width": 40
-	    }
-	]    
-    },    
-    "footer": [
-        {
-            "type": "github",
-            "code": "https://github.com/MaayanLab/enrichr-kg",
-            "issues": "https://github.com/MaayanLab/enrichr-kg/issues"
-        },
-        {
-            "type": "icon",
-            "key": "lab_icon",
-            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/maayan-lab.jpg",
-            "alt": "MaayanLab",
-            "href": "https://labs.icahn.mssm.edu/maayanlab/",
-            "height": 125,
-            "width": 150
-        },
-        {
-            "type": "icon",
-            "key": "center_icon",
-            "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/ISMMS_Center_Bioinformatics_RGB_Vrtl.jpg",
-            "alt": "COB",
-            "href": "https://icahn.mssm.edu/research/bioinformatics",
-            "height": 125,
-            "width": 200
+        ],
+        "title": "lncEnrichr-KG"
+    },
+    "nodes": [{
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "ARCHS4 TFs Coexpression lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["22RV1 PROSTATE TenPx24", "697 HAEMATOPOIETIC AND LYMPHOID TISSUE TenPx30"],
+            "node": "ARCHS4 TFs Coexpression lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "ChEA 2022 lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["BP1 19119308 ChIP-ChIP Hs578T Human", "FOXP1 22492998 ChIP-Seq STRATIUM Mouse"],
+            "node": "ChEA 2022 lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Descartes lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["Acinar cells in Pancreas", "Adrenocortical cells in Adrenal"],
+            "node": "Descartes lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "DisGeNET lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["46, XX Testicular Disorders of Sex Development", "46, XY Disorders of Sex Development"],
+            "node": "DisGeNET lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "FANTOM lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["A1BG-AS1-ASO_G0268895_01-DEGs Up", "A1BG-AS1-ASO_G0268895_01-DEGs Down"],
+            "node": "FANTOM lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Gene ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }, {
+                    "label": "acc",
+                    "text": "${acc}",
+                    "type": "text"
+                }, {
+                    "href": "${uri}",
+                    "label": "uri",
+                    "text": "${uri}",
+                    "type": "link"
+                }
+            ],
+            "example": ["VPS9D1-AS1", "KIFC1"],
+            "node": "Gene",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "GO Biological Process lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["'de novo' posttranslational protein folding (GO:0051084)", "2-oxoglutarate metabolic process (GO:0006103)"],
+            "node": "GO Biological Process lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "GWAS Catalog lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["Beta2-Glycoprotein I plasma levels", "1,5-anhydroglucitol levels"],
+            "node": "GWAS Catalog lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "HuBMAP ASCTplusB lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["Paneth Cell Of Epithelium Proper Of Small intestine - Small Intestine", "Duodenal Goblet cell - Small Intestine"],
+            "node": "HuBMAP ASCTplusB lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Human Gene Atlas lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["Thyroid", "CD33+ Myeloid"],
+            "node": "Human Gene Atlas lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Human Phenotype Ontology lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["Abnormality of B cell number (HP:0010975)", "B lymphocytopenia (HP:0010976)"],
+            "node": "Human Phenotype Ontology lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Jensen Lab DISEASES lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["3-M syndrome", "3-Methylcrotonyl-CoA carboxylase deficiency"],
+            "node": "Jensen Lab DISEASES lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "KEGG Pathway lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }, {
+                    "href": "${uri}",
+                    "label": "uri",
+                    "text": "${uri}",
+                    "type": "link"
+                }
+            ],
+            "example": ["ABC transporters", "AGE-RAGE signaling pathway in diabetic complications"],
+            "node": "KEGG Pathway lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "LINCS Chem Pert Consensus Sigs lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["Afatinib Up", "Erlotinib Up"],
+            "node": "LINCS Chem Pert Consensus Sigs lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "LINCS CRISPR KO Consensus Sigs lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["A1BG Up", "A1CF Up"],
+            "node": "LINCS CRISPR KO Consensus Sigs lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "MGI Mammalian Phenotype Level 4 2021 lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["abdominal situs ambiguus MP:0011250", "abdominal situs inversus MP:0011249"],
+            "node": "MGI Mammalian Phenotype Level 4 2021 lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Pfam lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["abdominal situs ambiguus MP:0011250", "abdominal situs inversus MP:0011249"],
+            "node": "Pfam lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "PFOCR Pathways lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["PMC102186 Mb2400926009", "PMC1064894 Ar1469-3"],
+            "node": "PFOCR Pathways lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Project Achilles Decrease lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["22RV1-prostate", "697-haematopoietic and lymphoid tissue"],
+            "node": "Project Achilles Decrease lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Project Achilles Increase lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["22RV1-prostate", "697-haematopoietic and lymphoid tissue"],
+            "node": "Project Achilles Increase lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Proteomics Drug Atlas 2023 lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["SR 142948 Up", "SR 142948 Down"],
+            "node": "Proteomics Drug Atlas 2023 lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Reactome 2022 lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["2-LTR Circle Formation R-HSA-164843", "GAG Synthesis Requires Tetrasaccharide Linker Sequence R-HSA-1971475"],
+            "node": "Reactome 2022 lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Tabula Muris lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["B Cell Spleen CL:0000236", "T Cell Spleen CL:0000084"],
+            "node": "Tabula Muris lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "Tabula Sapiens lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["Bladder-bladder Urothelial Cell", "Bladder-capillary Endothelial Cell"],
+            "node": "Tabula Sapiens lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "The Kinase Library 2023 lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["AAK1", "ACVR2A"],
+            "node": "The Kinase Library 2023 lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "TRRUST TFs 2019 lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["AATF mouse", "ABL1 human"],
+            "node": "TRRUST TFs 2019 lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
+            "color": "#c5e1a5",
+            "display": [{
+                    "label": "WikiPathway 2021 Human lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["15q11.2 copy number variation syndrome WP4940", "15q13.3 copy number variation syndrome WP4942"],
+            "node": "WikiPathway 2021 Human lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
         }
     ]
 }
