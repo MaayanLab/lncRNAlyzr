@@ -1913,7 +1913,8 @@
                 "props": {
                     "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/Help.md"
                 }
-            },
+            }
+	]
 	    "subheader":[{
 	        "height": 100,
 	        "href": "https://depmap.org/portal/achilles/",
