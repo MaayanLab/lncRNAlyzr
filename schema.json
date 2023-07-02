@@ -1748,22 +1748,22 @@
                     "description": "Enter a list of genes below to perform enrichment analysis using [Independent Enrichment Analysis](https://appyters.maayanlab.cloud/Independent_Enrichment_Analysis/).",
                     "placeholder":"Enter newline separated gene sets",
                     "example":{
-					    "gene_set":"TTC39C-AS1\nLINC02768\nENSG00000287557\nFSIP2-AS1\nPRICKLE2-DT\nENSG00000282304\nNHS-AS1\nENSG00000248676\nLINC02216\nENSG00000288929\nLINC02653\nENSG00000249771\nLINC02749\nVPS13C-DT\nENSG00000286981",
-				        "libraries":[
-						    {
-							    "library":"CCLE_Proteomics_2020_lncRNA",
-							    "term_limit":5
-						    },
-						    {
-							    "library":"ARCHS4_TFs_Coexp_lncRNA",
-							    "term_limit":5
-						    },
-                            {
-							    "library":"DisGeNET_lncRNA",
-                                "term_limit":5
-						    }
-					    ],
-					    "gene_degree":3
+			"gene_set":"TTC39C-AS1\nLINC02768\nENSG00000287557\nFSIP2-AS1\nPRICKLE2-DT\nENSG00000282304\nNHS-AS1\nENSG00000248676\nLINC02216\nENSG00000288929\nLINC02653\nENSG00000249771\nLINC02749\nVPS13C-DT\nENSG00000286981",
+			"libraries":[
+				{
+					"library":"CCLE_Proteomics_2020_lncRNA",
+					"term_limit":5
+				},
+				{
+					"library":"ARCHS4_TFs_Coexp_lncRNA",
+					"term_limit":5
+				},
+                            	{
+					"library":"DisGeNET_lncRNA",
+                                	"term_limit":5
+				}
+			],
+			"gene_degree":3
                     },
                     "libraries":[
     					{
@@ -2155,7 +2155,7 @@
 	                    "term_limit": 5
 	                }
 	            ],
-	            "relation": ["Proteomics Drug Atlas 2023"]
+	            "relation": ["CCLE"]
 	        },
 	        "width": 100
 	    }, {
