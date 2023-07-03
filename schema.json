@@ -804,9 +804,7 @@
         }
     ],
     "header": {
-        "background": {
-            "backgroundColor": "F4DECB"
-        },
+       
         "icon": {
             "alt": "lncEnrichr-KG logo",
             "favicon": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo-new.png",
