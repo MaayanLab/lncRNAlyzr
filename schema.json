@@ -1195,13 +1195,13 @@
                     "init_function": "initialize_enrichment",
                     "libraries": [{
                             "name": "ARCHS4_TFs_Coexp_lncRNA",
-                            "node": "ARCHS4 TFs Coexp lncRNA"
+                            "node": "ARCHS4 TFs Coexpression lncRNA"
                         }, {
                             "name": "Achilles_fitness_decrease_lncRNA",
-                            "node": "Achilles fitness decrease lncRNA"
+                            "node": "Project Achilles Decrease lncRNA"
                         }, {
                             "name": "Achilles_fitness_increase_lncRNA",
-                            "node": "Achilles fitness increase lncRNA"
+                            "node": "Project Achilles Increase lncRNA"
                         }, {
                             "name": "CCLE_Proteomics_2020_lncRNA",
                             "node": "CCLE Proteomics 2020 lncRNA"
@@ -1210,25 +1210,22 @@
                             "node": "ChEA 2022 lncRNA"
                         }, {
                             "name": "Descartes_Cell_Types_and_Tissue_2021_lncRNA",
-                            "node": "Descartes Cell Types and Tissue 2021 lncRNA"
-                        }, {
-                            "name": "CCLE_Proteomics_2020",
-                            "node": "CCLE Proteomics 2020"
+                            "node": "Descartes lncRNA"
                         }, {
                             "name": "DisGeNET_lncRNA",
                             "node": "DisGeNET lncRNA"
                         }, {
                             "name": "FANTOM6_lncRNA_KD_DEGs_lncRNA",
-                            "node": "FANTOM6 lncRNA KD DEGS lncRNA"
+                            "node": "FANTOM6 lncRNA"
                         }, {
                             "name": "GO_Biological_Process_2021_lncRNA",
-                            "node": "GO Biological Process 2021 lncRNA"
+                            "node": "GO Biological Process lncRNA"
                         }, {
                             "name": "GWAS_Catalog_2019_lncRNA",
-                            "node": "GWAS Catalog 2019 lncRNA"
+                            "node": "GWAS Catalog lncRNA"
                         }, {
                             "name": "HuBMAP_ASCTplusB_augmented_2022_lncRNA",
-                            "node": "HuBMAP ASCTplusB augmented 2022 lncRNA"
+                            "node": "HuBMAP ASCTplusB lncRNA"
                         }, {
                             "name": "Human_Gene_Atlas_lncRNA",
                             "node": "Human Gene Atlas lncRNA"
@@ -1237,10 +1234,16 @@
                             "node": "Human Phenotype Ontology lncRNA"
                         }, {
                             "name": "Jensen_DISEASES_lncRNA",
-                            "node": "Jensen DISEASES lncRNA"
+                            "node": "Jensen Lab DISEASES lncRNA"
                         }, {
                             "name": "KEGG_2021_Human_lncRNA",
-                            "node": "KEGG 2021 Human lncRNA"
+                            "node": "KEGG Pathway lncRNA"
+                        }, {
+                            "name": "LINCS_L1000_Chem_Pert_Consensus_Sigs_lncRNA",
+                            "node": "LINCS Chem Pert Consensus Sigs lncRNA"
+                        }, {
+                            "name": "LINCS_L1000_CRISPR_KO_Consensus_Sigs_lncRNA",
+                            "node": "LINCS CRISPR KO Consensus Sigs lncRNA"
                         }, {
                             "name": "MGI_Mammalian_Phenotype_Level_4_2021_lncRNA",
                             "node": "MGI Mammalian Phenotype Level 4 2021 lncRNA"
@@ -1249,7 +1252,7 @@
                             "node": "PFOCR Pathways lncRNA"
                         }, {
                             "name": "Pfam_InterPro_Domains_lncRNA",
-                            "node": "Pfam InterPro Domains lncRNA"
+                            "node": "Pfam lncRNA"
                         }, {
                             "name": "Proteomics_Drug_Atlas_2023_lncRNA",
                             "node": "Proteomics Drug Atlas 2023 lncRNA"
@@ -1258,7 +1261,7 @@
                             "node": "Reactome 2022 lncRNA"
                         }, {
                             "name": "TRRUST_Transcription_Factors_2019_lncRNA",
-                            "node": "TRRUST Transcription Factors 2019 lncRNA"
+                            "node": "TRRUST TFs 2019 lncRNA"
                         }, {
                             "name": "Tabula_Muris_lncRNA",
                             "node": "Tabula Muris lncRNA"
