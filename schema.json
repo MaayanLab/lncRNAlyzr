@@ -1,5 +1,6 @@
 {
     "edges": [{
+            "color": "#287233",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -21,15 +22,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["ARCHS4"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The transcription factor ${term} is co-expressed with ${genes}.",
+                "singular": "The transcription factor ${term} is co-expressed with ${gene}."
+            }
         }, {
+            "color": "#75151E",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -51,15 +61,63 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
+                    "type": "link"
+                }
+            ],
+            "match": ["CCLE"],
+            "selected": true,
+            "templates": {
+                "multiple": "The gene products ${genes} are up-regulated in ${term}",
+                "singular": "The gene product ${gene} is up-regulated in ${term}"
+            }
+        }, {
+            "color": "#5D9B9B",
+            "display": [{
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                }, {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                }, {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                }, {
+                    "label": "source label",
+                    "text": "${source_label}",
+                    "type": "text"
+                }, {
+                    "label": "target label",
+                    "text": "${target_label}",
+                    "type": "text"
+                }, {
+                    "label": "resource",
+                    "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["ChEA3"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The ${genes} are target of the transcription factor ${term}.",
+                "singular": "The ${gene} is a target of the transcription factor ${term}."
+            }
         }, {
+            "color": "#4fc3f7",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -81,15 +139,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["Descartes"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "${term} has the following biomarkers ${genes}.",
+                "singular": "${gene} is a biomarker of ${term}."
+            }
         }, {
+            "color": "#025669",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -111,15 +178,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["DisGeNET"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The disease ${term} is associated with the following genes: ${genes}.",
+                "singular": "The disease ${term} is associated with the gene ${gene}."
+            }
         }, {
+            "color": "#BEBD7F",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -141,15 +217,28 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
                     "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
+                    "type": "link"
+                }, {
+                    "label": "direction",
+                    "text": "${direction}",
+                    "type": "text"
                 }
             ],
             "match": ["FANTOM"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "Knocking down the lncRNA ${term} down-regulates the expression of ${genes}.",
+                "singular": "Knocking down the lncRNA ${term} down-regulates the expression of ${gene}."
+            }
         }, {
+            "color": "#49678D",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -171,15 +260,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["GOBP"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "${genes} belong to the biological process ${term}.",
+                "singular": "${gene} belongs to the biological process ${term}."
+            }
         }, {
+            "color": "#8E402A",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -201,15 +299,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["GWAS"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "${term} is associated with ${genes} based on GWAS.",
+                "singular": "${term} is associated with ${gene} based on GWAS."
+            }
         }, {
+            "color": "#DE4C8A",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -231,15 +338,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["HuBMAP ASCTplusB"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "${genes} are biomarkers of ${term}.",
+                "singular": "${gene} is a biomarker of ${term}."
+            }
         }, {
+            "color": "#9D9101",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -261,15 +377,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["Human Gene Atlas"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The genes ${genes} are up-regulated in ${term} cells.",
+                "singular": "The gene ${gene} is up-regulated in ${term} cells."
+            }
         }, {
+            "color": "#317F43",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -291,15 +416,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["Human Phenotype Ontology"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The phenotype ${term} is associated with the genes ${genes}.",
+                "singular": "The phenotype ${term} is associated with the gene ${gene}."
+            }
         }, {
+            "color": "#00BB2D",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -321,15 +455,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["Jensen Lab DISEASES"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The disease ${term} is associated with the genes ${genes}.",
+                "singular": "The disease ${term} is associated with the gene ${gene}."
+            }
         }, {
+            "color": "#E1CC4F",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -351,15 +494,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["KEGG"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The gene products ${genes} are members of the KEGG pathway ${term}.",
+                "singular": "The gene product ${gene} is a member of the KEGG pathway ${term}."
+            }
         }, {
+            "color": "#D84B20",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -381,15 +533,28 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
                     "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
+                    "type": "link"
+                }, {
+                    "label": "direction",
+                    "text": "${direction}",
+                    "type": "text"
                 }
             ],
             "match": ["LINCS Chem Pert Consensus Sigs"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The small molecule ${term} down-regulates the expression of ${genes}.",
+                "singular": "The small molecule ${term} down-regulates the expression of ${gene}."
+            }
         }, {
+            "color": "#BDECB6",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -411,15 +576,28 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
                     "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
+                    "type": "link"
+                }, {
+                    "label": "direction",
+                    "text": "${direction}",
+                    "type": "text"
                 }
             ],
             "match": ["LINCS CRISPR KO Consensus Sigs"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "Knockout of the gene ${term} down-regulates the genes ${genes}.",
+                "singular": "Knockout of the gene ${term} down-regulates the expression of ${gene}."
+            }
         }, {
+            "color": "#2A6478",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -441,15 +619,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["MGI"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The phenotype ${term} was observed in ${genes} KO mice.",
+                "singular": "The phenotype ${term} was observed in ${gene} KO mice."
+            }
         }, {
+            "color": "#F75E25",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -471,15 +658,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["Pfam"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The gene products ${genes} have the structural domain ${term}.",
+                "singular": "The gene product ${gene} has the structural domain ${term}."
+            }
         }, {
+            "color": "#CAC4B0",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -501,15 +697,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["PFOCR"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "${genes} are associated with the pathway diagram in ${term}",
+                "singular": "${gene} is associated with the pathway diagram in ${term}"
+            }
         }, {
+            "color": "#CDA434",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -531,15 +736,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["Achilles Decrease"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "Knockdown of ${genes} decreases the fitness of the cell line ${term}.",
+                "singular": "Knockdown of ${gene} decreases the fitness of the cell line ${term}."
+            }
         }, {
+            "color": "#354D73",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -561,15 +775,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["Achilles Increase"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "Knockdown of ${genes} increases the fitness of the cell line ${term}.",
+                "singular": "Knockdown of ${gene} increases the fitness of the cell line ${term}."
+            }
         }, {
+            "color": "#C2B078",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -591,15 +814,28 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
                     "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
+                    "type": "link"
+                }, {
+                    "label": "direction",
+                    "text": "${direction}",
+                    "type": "text"
                 }
             ],
             "match": ["Proteomics Drug Atlas 2023"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The drug ${term} down-regulates the expression of ${genes}.",
+                "singular": "The drug ${term} down-regulates the expression of ${gene}."
+            }
         }, {
+            "color": "#2C5545",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -621,15 +857,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["Reactome 2022"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The genes ${genes} are members of the Reactome pathway ${term}.",
+                "singular": "The gene ${gene} is a member of the Reactome pathway ${term}."
+            }
         }, {
+            "color": "#924E7D",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -651,15 +896,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["Tabula Muris"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "${term} has the following biomarkers ${genes}.",
+                "singular": "${gene} is a biomarker for {term}."
+            }
         }, {
+            "color": "#641C34",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -681,15 +935,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["Tabula Sapiens"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "${term} has the following biomarkers ${genes}.",
+                "singular": "${term} has the following biomarker ${gene}."
+            }
         }, {
+            "color": "#1E5945",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -711,15 +974,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["The Kinase Library"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The kinase ${term} phosphorylates ${genes}.",
+                "singular": "The kinase ${term} phosphorylates ${gene}."
+            }
         }, {
+            "color": "#20603D",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -741,15 +1013,24 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["TRRUST"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The transcription factor ${term} regulates the genes ${genes}.",
+                "singular": "The transcription factor ${term} regulates the gene ${gene}."
+            }
         }, {
+            "color": "#025669",
             "display": [{
                     "label": "source",
                     "text": "${source}",
@@ -771,14 +1052,22 @@
                     "text": "${target_label}",
                     "type": "text"
                 }, {
-                    "href": "${resource}",
                     "label": "resource",
                     "text": "${resource}",
+                    "type": "link"
+                }, {
+                    "href": "${link_to_resource}",
+                    "label": "link to resource",
+                    "text": "${link_to_resource}",
                     "type": "link"
                 }
             ],
             "match": ["WikiPathway 2021 Human"],
-            "selected": true
+            "selected": true,
+            "templates": {
+                "multiple": "The genes ${genes} are members of the WikiPathway ${term}.",
+                "singular": "The gene ${gene} is a member of the WikiPathway ${term}."
+            }
         }
     ],
     "footer": [{
@@ -804,12 +1093,11 @@
         }
     ],
     "header": {
-       
         "icon": {
-            "alt": "lncEnrichr-KG logo",
+            "alt": "lncAnalyzr logo",
             "favicon": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo-new.png",
             "height": 60,
-            "key": "lncenrichr_kg_logo",
+            "key": "lncanalyzr_logo",
             "src": "https://raw.githubusercontent.com/20LM22/KnowledgeGraphDemo/main/logo-new.png",
             "width": 60
         },
@@ -1147,7 +1435,12 @@
                 "endpoint": "/search",
                 "label": "Term & Gene Search",
                 "props": {
-                    "init_function": "initialize_kg"
+                    "gene_link_button": true,
+                    "init_function": "initialize_kg",
+                    "subheader": {
+                        "field": "relation",
+                        "onClick": "filter_relation"
+                    }
                 },
                 "type": "page"
             }, {
@@ -1296,10 +1589,10 @@
                 "type": "markdown"
             }
         ],
-        "title": "lncEnrichr-KG"
+        "title": "<span style={{color: 'white'}}>lnc</span><span style={{color: 'blue'}}>Analyzr</span>"
     },
     "nodes": [{
-            "color": "#c5e1a5",
+            "color": "#dbd2ba",
             "display": [{
                     "label": "ARCHS4 TFs Coexpression lncRNA ID",
                     "text": "${id}",
@@ -1331,7 +1624,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#8ebaff",
             "display": [{
                     "label": "Descartes lncRNA ID",
                     "text": "${id}",
@@ -1347,7 +1640,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#71ebff",
             "display": [{
                     "label": "DisGeNET lncRNA ID",
                     "text": "${id}",
@@ -1363,7 +1656,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#00caff",
             "display": [{
                     "label": "FANTOM lncRNA ID",
                     "text": "${id}",
@@ -1379,7 +1672,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#d2aa92",
             "display": [{
                     "label": "Gene ID",
                     "text": "${id}",
@@ -1404,7 +1697,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#5E2129",
             "display": [{
                     "label": "GO Biological Process lncRNA ID",
                     "text": "${id}",
@@ -1420,7 +1713,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#C1876B",
             "display": [{
                     "label": "GWAS Catalog lncRNA ID",
                     "text": "${id}",
@@ -1436,7 +1729,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#B8B799",
             "display": [{
                     "label": "HuBMAP ASCTplusB lncRNA ID",
                     "text": "${id}",
@@ -1452,7 +1745,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#824285",
             "display": [{
                     "label": "Human Gene Atlas lncRNA ID",
                     "text": "${id}",
@@ -1484,7 +1777,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#7B63C5",
             "display": [{
                     "label": "Jensen Lab DISEASES lncRNA ID",
                     "text": "${id}",
@@ -1500,7 +1793,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#8AC1AF",
             "display": [{
                     "label": "KEGG Pathway lncRNA ID",
                     "text": "${id}",
@@ -1521,7 +1814,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#C723C1",
             "display": [{
                     "label": "LINCS Chem Pert Consensus Sigs lncRNA ID",
                     "text": "${id}",
@@ -1537,7 +1830,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#AEA952",
             "display": [{
                     "label": "LINCS CRISPR KO Consensus Sigs lncRNA ID",
                     "text": "${id}",
@@ -1553,7 +1846,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#F97E87",
             "display": [{
                     "label": "MGI Mammalian Phenotype Level 4 2021 lncRNA ID",
                     "text": "${id}",
@@ -1569,7 +1862,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#6188F8",
             "display": [{
                     "label": "Pfam lncRNA ID",
                     "text": "${id}",
@@ -1585,7 +1878,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#0E4FCB",
             "display": [{
                     "label": "PFOCR Pathways lncRNA ID",
                     "text": "${id}",
@@ -1601,7 +1894,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#A6DB9C",
             "display": [{
                     "label": "Project Achilles Decrease lncRNA ID",
                     "text": "${id}",
@@ -1617,7 +1910,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#384583",
             "display": [{
                     "label": "Project Achilles Increase lncRNA ID",
                     "text": "${id}",
@@ -1633,7 +1926,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#586273",
             "display": [{
                     "label": "Proteomics Drug Atlas 2023 lncRNA ID",
                     "text": "${id}",
@@ -1649,7 +1942,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#6FB1EE",
             "display": [{
                     "label": "Reactome 2022 lncRNA ID",
                     "text": "${id}",
@@ -1665,7 +1958,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#A2BC18",
             "display": [{
                     "label": "Tabula Muris lncRNA ID",
                     "text": "${id}",
@@ -1681,7 +1974,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#943FC5",
             "display": [{
                     "label": "Tabula Sapiens lncRNA ID",
                     "text": "${id}",
@@ -1697,7 +1990,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#53F4B3",
             "display": [{
                     "label": "The Kinase Library 2023 lncRNA ID",
                     "text": "${id}",
@@ -1713,7 +2006,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#AC88B2",
             "display": [{
                     "label": "TRRUST TFs 2019 lncRNA ID",
                     "text": "${id}",
@@ -1729,7 +2022,7 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
-            "color": "#c5e1a5",
+            "color": "#2884B5",
             "display": [{
                     "label": "WikiPathway 2021 Human lncRNA ID",
                     "text": "${id}",
