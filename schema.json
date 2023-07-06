@@ -1624,6 +1624,22 @@
             "relation": [],
             "search": ["id", "label"]
         }, {
+            "color": "##918451",
+            "display": [{
+                    "label": "CCLE Proteomics 2020 lncRNA ID",
+                    "text": "${id}",
+                    "type": "text"
+                }, {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                }
+            ],
+            "example": ["22RV1 PROSTATE TenPx24", "697 HAEMATOPOIETIC AND LYMPHOID TISSUE TenPx30"],
+            "node": "CCLE Proteomics 2020 lncRNA",
+            "relation": [],
+            "search": ["id", "label"]
+        }, {
             "color": "#8ebaff",
             "display": [{
                     "label": "Descartes lncRNA ID",
