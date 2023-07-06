@@ -1147,7 +1147,13 @@
                 "endpoint": "/search",
                 "label": "Term & Gene Search",
                 "props": {
-                    "init_function": "initialize_kg"
+                    "init_function": "initialize_kg",
+                    "initial_query": {
+                        "relation": "ARCHS4",
+                        "start": "ARCHS4 TFs Coexp lncRNA",
+                        "start_field": "label",
+                        "start_term": "22RV1 PROSTATE TenPx24"
+                    }
                 },
                 "type": "page"
             }, {
