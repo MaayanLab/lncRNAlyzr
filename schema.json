@@ -1589,7 +1589,7 @@
                 "type": "markdown"
             }
         ],
-        "title": "<span style={{color: 'white'}}>lnc</span><span style={{color: 'blue'}}>Analyzr</span>"
+        "title": "<span style={{color: '#FFFFFF'}}>lnc</span><span style={{color: '#212070'}}>Analyzr</span>"
     },
     "nodes": [{
             "color": "#dbd2ba",
