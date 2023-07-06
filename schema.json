@@ -1147,13 +1147,7 @@
                 "endpoint": "/search",
                 "label": "Term & Gene Search",
                 "props": {
-                    "init_function": "initialize_kg",
-                    "initial_query": {
-                        "relation": "ARCHS4 TFs Coexp lncRNA",
-                        "start": "ARCHS4_TFs_Coexp_lncRNA",
-                        "start_field": "label",
-                        "start_term": "DANCR"
-                    }
+                    "init_function": "initialize_kg"
                 },
                 "type": "page"
             }, {
