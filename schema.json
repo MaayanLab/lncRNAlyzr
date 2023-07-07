@@ -1450,13 +1450,13 @@
                 "props": {
                     "default_options": {
                         "libraries": [{
-                                "library": "ARCHS4_TFs_Coexp_lncRNA",
+                                "library": "Human_Phenotype_Ontology_lncRNA",
                                 "term_limit": 5
                             }, {
                                 "library": "Achilles_fitness_decrease_lncRNA",
                                 "term_limit": 5
                             }, {
-                                "library": "Achilles_fitness_increase_lncRNA",
+                                "library": "Reactome_2022_lncRNA",
                                 "term_limit": 5
                             }
                         ],
@@ -1466,15 +1466,15 @@
                     "description": "Enter a list of genes below to perform enrichment analysis using [Independent Enrichment Analysis](https://appyters.maayanlab.cloud/Independent_Enrichment_Analysis/).",
                     "example": {
                         "gene_degree": 3,
-                        "gene_set": "TTC39C-AS1\nLINC02768\nENSG00000287557\nFSIP2-AS1\nPRICKLE2-DT\nENSG00000282304\nNHS-AS1\nENSG00000248676\nLINC02216\nENSG00000288929\nLINC02653\nENSG00000249771\nLINC02749\nVPS13C-DT\nENSG00000286981",
+                        "gene_set": "NORAD\nCABIN1\nENSG00000274015\nPCCA-DT\nKIFC1\nENSG00000257663\nDANCR\nDAXX\nAGAP2-AS1\nNEURL1-AS1",
                         "libraries": [{
-                                "library": "CCLE_Proteomics_2020_lncRNA",
+                                "library": "Human_Phenotype_Ontology_lncRNA",
                                 "term_limit": 5
                             }, {
-                                "library": "ARCHS4_TFs_Coexp_lncRNA",
+                                "library": "Achilles_fitness_decrease_lncRNA",
                                 "term_limit": 5
                             }, {
-                                "library": "DisGeNET_lncRNA",
+                                "library": "Reactome_2022_lncRNA",
                                 "term_limit": 5
                             }
                         ]
