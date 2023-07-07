@@ -1,44 +1,6 @@
-## lncEnrichr-KG
-<div id="page">
-        <div id="menu">
-            <ul>
-                <li><a href="#enrichment" class="highlight">
-                        <span class="section">Enrichment Analysis</span>
-                        <span class="description">Learn how to perform enrichment analysis on a gene set</span></a>
-                    <ul>
-                        <li class="subselection"><a href="#">Uploading a list</a></li>
-                        <li class="subselection"><a href="#">Browsing the results</a></li>
-                        <li class="subselection"><a href="#">Understanding the bar graph</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#search" class="highlight">
-                        <span class="section">Gene and Term Search</span>
-                        <span class="description">Learn how to search for genes and explore gene relations</span>
-                    </a>
-                    <ul>
-                        <li class="subselection"><a href="#">Selecting a library</a></li>
-                        <li class="subselection"><a href="#">Choosing a gene</a></li>
-                        <li class="subselection"><a href="#">Viewing the results</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#background" class="highlight">
-                        <span class="section">Background Information</span>
-                        <span class="description">Learn biological and technical information regarding lncEnrichr-KG</span>
-                    </a>
-                    <ul>
-                        <li class="subselection"><a href="#">What is a gene set?</a></li>
-                        <li class="subselection"><a href="#">What is enrichment analysis?</a></li>
-                        <li class="subselection"><a href="#">What is an enrichment term?</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div id="content">
-            <div name="enrichment">testing</div>
-            <div name="search">testing</div>
-            <div name="background">testing</div>
-        </div>
-    </div>
-## Please note: lncEnrichr-KG is in development
+### lncRNAlyzr
+## About
+lncRNA are an understudied part of the human genome 
+Gene and protein enrichment analysis is a critical step in the analysis of data collected from omics experiments. Enrichr is a popular gene set enrichment analysis web-server search engine that contains hundreds of thousand annotated gene sets; it provides a comprehensive resource for annotated gene sets based on existing biological knowledge. While Enrichr has been useful in providing enrichment analysis against many gene set libraries from different domains, integrating enrichment results across libraries and domains of knowledge can further hypothesis generation. To this end, Enrichr-KG is a knowledge graph and web-server application that combines selected gene set libraries from Enrichr and presents these to the user for integrated analysis and visualization. Nodes in Enrichr-KG are either genes or functional terms, while edges connect genes to their enriched terms. This graphical representation of Enrichr libraries can illuminate hidden associations between genes and annotated terms from across multiple datasets. Enrichr-KG currently serves over 20 gene set libraries from different categories that include transcription, pathways, ontologies, diseases/drugs, and cell types. Enrichr-KG is freely available at https://maayanlab.cloud/enrichr-kg.
+
+## Please note: lncRNAlyzr is in development
