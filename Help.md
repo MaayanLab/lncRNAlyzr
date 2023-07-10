@@ -1,9 +1,8 @@
 ## About
-
-lncRNAs (long non-coding RNAs) make up a large portion of the human genome but are relatively understudied and less well understood than protein-coding RNAs. While there exist many tools, such as Enrichr and Enrichr-KG, to perform enrichment analysis on protein-coding genes, lncRNAlyzr is a knowledge graph and web-server application that provides enrichment analysis for lncRNA gene set libraries and presents results to the user for visualization. Knowledge graph nodes in lncRNAlyzr are either lncRNAs or functional terms, while edges connect lncRNAs to their enrichment terms. This graphical representation of lncRNA libraries (based on existing Enrichr coding-gene set libraries) can illuminate hidden associations between lncRNAs and annotated terms from across multiple datasets. lncRNAylzr currently serves over 20 gene set libraries from different categories that include transcription, pathways, ontologies, diseases/drugs, and cell types. lncRNAylzr is still under development.
-
 ---
+lncRNAs (long non-coding RNAs) make up a large portion of the human genome but are relatively understudied and less well understood than protein-coding RNAs. While there exist many tools, such as Enrichr and Enrichr-KG, to perform enrichment analysis on protein-coding genes, lncRNAlyzr is a knowledge graph and web-server application that provides enrichment analysis for lncRNA gene set libraries and presents results to the user for visualization. Knowledge graph nodes in lncRNAlyzr are either lncRNAs or functional terms, while edges connect lncRNAs to their enrichment terms. This graphical representation of lncRNA libraries (based on existing Enrichr coding-gene set libraries) can illuminate hidden associations between lncRNAs and annotated terms from across multiple datasets. lncRNAylzr currently serves over 20 gene set libraries from different categories that include transcription, pathways, ontologies, diseases/drugs, and cell types. lncRNAylzr is still under development.
 ## Background Information
+---
 ### What is a gene set?
 A gene set is a group of genes that share a common biological function. A gene set can be the product of a high-throughput experiment such as differential expression analysis of microarray or RNA-Seq data or it can be an annotated set created from prior knowledge.
 
@@ -20,9 +19,8 @@ A gene set library is a set of related gene sets or enrichment terms.
 The p-value is computed using a standard statistical method used by most enrichment analysis tools: Fisher's exact test or the hypergeometric test. This is a binomial proportion test that assumes a binomial distribution and independence for probability of any gene belonging to any set.
 
 The q-value is an adjusted p-value using the Benjamini-Hochberg method for correction for multiple hypotheses testing.
-
----
 ## Using lncRNAlyzr
+---
 ### Performing Enrichment Analysis
 
 A typical analysis with lncRNAlyzr begins by inputting a gene set in the main text box and selecting up to 5 lncRNA libraries to query. You can click "Try an Example" to populate the text box with an example gene set. You can further control the results by tweaking the following parameters:
