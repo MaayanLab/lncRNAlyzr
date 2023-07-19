@@ -1068,7 +1068,293 @@
                 "multiple": "The genes ${genes} are members of the WikiPathway ${term}.",
                 "singular": "The gene ${gene} is a member of the WikiPathway ${term}."
             }
+        }, {
+            "color": "#808080",
+            "display": [
+                {
+                  "label": "source",
+                  "text": "${source}",
+                  "type": "text"
+                },
+                {
+                  "label": "relation",
+                  "text": "${relation}",
+                  "type": "text"
+                },
+                {
+                  "label": "target",
+                  "text": "${target}",
+                  "type": "text"
+                },
+                {
+                  "label": "source label",
+                  "text": "${source_label}",
+                  "type": "text"
+                },
+                {
+                  "label": "target label",
+                  "text": "${target_label}",
+                  "type": "text"
+                },
+                {
+                  "label": "resource",
+                  "text": "${resource}",
+                  "type": "link"
+                },
+                {
+                  "href": "${link_to_resource}",
+                  "label": "link to resource",
+                  "text": "${link_to_resource}",
+                  "type": "link"
+                }
+          ],
+          "match": [ "GlyGen" ],
+          "selected": true,
+          "templates": {
+                "multiple": "The genes ${genes} are members of the GlyGen ${term}.",
+                "singular": "The gene ${gene} is a member of the GlyGen ${term}."
+            }
+        },
+        {
+          "color": "#808080",
+          "display": [
+            {
+              "label": "source",
+              "text": "${source}",
+              "type": "text"
+            },
+            {
+              "label": "relation",
+              "text": "${relation}",
+              "type": "text"
+            },
+            {
+              "label": "target",
+              "text": "${target}",
+              "type": "text"
+            },
+            {
+              "label": "source label",
+              "text": "${source_label}",
+              "type": "text"
+            },
+            {
+              "label": "target label",
+              "text": "${target_label}",
+              "type": "text"
+            },
+            {
+              "label": "resource",
+              "text": "${resource}",
+              "type": "link"
+            },
+            {
+              "href": "${link_to_resource}",
+              "label": "link to resource",
+              "text": "${link_to_resource}",
+              "type": "link"
+            }
+          ],
+          "match": [ "GTEx Aging" ],
+          "selected": true,
+            "templates": {
+                "multiple": "The genes ${genes} are members of the GTEx Aging ${term}.",
+                "singular": "The gene ${gene} is a member of the GTEx Aging ${term}."
+            }
+        },
+        {
+          "color": "#808080",
+          "display": [
+            {
+              "label": "source",
+              "text": "${source}",
+              "type": "text"
+            },
+            {
+              "label": "relation",
+              "text": "${relation}",
+              "type": "text"
+            },
+            {
+              "label": "target",
+              "text": "${target}",
+              "type": "text"
+            },
+            {
+              "label": "source label",
+              "text": "${source_label}",
+              "type": "text"
+            },
+            {
+              "label": "target label",
+              "text": "${target_label}",
+              "type": "text"
+            },
+            {
+              "label": "resource",
+              "text": "${resource}",
+              "type": "link"
+            },
+            {
+          "href": "${link_to_resource}",
+          "label": "link to resource",
+          "text": "${link_to_resource}",
+          "type": "link"
         }
+      ],
+      "match": [ "GTEx Tissues" ],
+      "selected": true,
+        "templates": {
+                "multiple": "The genes ${genes} are members of the GTEx Tissues ${term}.",
+                "singular": "The gene ${gene} is a member of the GTEx Tissues ${term}."
+            }
+    },
+    {
+      "color": "#808080",
+      "display": [
+        {
+          "label": "source",
+          "text": "${source}",
+          "type": "text"
+        },
+        {
+          "label": "relation",
+          "text": "${relation}",
+          "type": "text"
+        },
+        {
+          "label": "target",
+          "text": "${target}",
+          "type": "text"
+        },
+        {
+          "label": "source label",
+          "text": "${source_label}",
+          "type": "text"
+        },
+        {
+          "label": "target label",
+          "text": "${target_label}",
+          "type": "text"
+        },
+        {
+          "label": "resource",
+          "text": "${resource}",
+          "type": "link"
+        },
+        {
+          "href": "${link_to_resource}",
+          "label": "link to resource",
+          "text": "${link_to_resource}",
+          "type": "link"
+        }
+      ],
+      "match": [ "IDG" ],
+      "selected": true,
+        "templates": {
+                "multiple": "The genes ${genes} are members of the IDG ${term}.",
+                "singular": "The gene ${gene} is a member of the IDG ${term}."
+            }
+    },
+    {
+      "color": "#808080",
+      "display": [
+        {
+          "label": "source",
+          "text": "${source}",
+          "type": "text"
+        },
+        {
+          "label": "relation",
+          "text": "${relation}",
+          "type": "text"
+        },
+        {
+          "label": "target",
+          "text": "${target}",
+          "type": "text"
+        },
+        {
+          "label": "source label",
+          "text": "${source_label}",
+          "type": "text"
+        },
+        {
+          "label": "target label",
+          "text": "${target_label}",
+          "type": "text"
+        },
+        {
+          "label": "resource",
+          "text": "${resource}",
+          "type": "link"
+        },
+        {
+          "href": "${link_to_resource}",
+          "label": "link to resource",
+          "text": "${link_to_resource}",
+          "type": "link"
+        }
+      ],
+      "match": [ "KOMP" ],
+      "selected": true,
+        "templates": {
+                "multiple": "The genes ${genes} are members of the KOMP ${term}.",
+                "singular": "The gene ${gene} is a member of the KOMP ${term}."
+            }
+    },
+    {
+      "color": "#808080",
+      "display": [
+        {
+          "label": "source",
+          "text": "${source}",
+          "type": "text"
+        },
+        {
+          "label": "relation",
+          "text": "${relation}",
+          "type": "text"
+        },
+        {
+          "label": "target",
+          "text": "${target}",
+          "type": "text"
+        },
+        {
+          "label": "source label",
+          "text": "${source_label}",
+          "type": "text"
+        },
+        {
+          "label": "target label",
+          "text": "${target_label}",
+          "type": "text"
+        },
+        {
+          "label": "resource",
+          "text": "${resource}",
+          "type": "link"
+        },
+        {
+          "href": "${link_to_resource}",
+          "label": "link to resource",
+          "text": "${link_to_resource}",
+          "type": "link"
+        },
+        {
+          "label": "direction",
+          "text": "${direction}",
+          "type": "text"
+        }
+      ],
+      "match": [ "Metabolomics" ],
+      "selected": true,
+        "templates": {
+                "multiple": "The genes ${genes} are members of the Metabolomics ${term}.",
+                "singular": "The gene ${gene} is a member of the Metabolomics ${term}."
+            }
+      }
     ],
     "footer": [{
             "code": "https://github.com/MaayanLab/enrichr-kg",
@@ -1428,6 +1714,90 @@
                     "relation": ["Proteomics Drug Atlas 2023"]
                 },
                 "width": 40
+            }, {
+                "height": 100,
+                "icon": "https://s3.amazonaws.com/maayan-kg/cfde-kg/assets/LINCS.gif",
+                "label": "LINCS",
+                "props": {
+                    "libraries": [{
+                            "library": "LINCS_L1000_Chem_Pert_Consensus_Sigs_lncRNA",
+                            "term_limit": 5
+                        }, {
+                            "library": "LINCS_L1000_CRISPR_KO_Consensus_Sigs_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["LINCS Chem Pert Consensus Sigs", "LINCS CRISPR KO Consensus Sigs"]
+                },
+                "width": 140
+            }, {
+                "height": 100,
+                "icon": "https://s3.amazonaws.com/maayan-kg/cfde-kg/assets/GTEx.png",
+                "label": "GTEx",
+                "props": {
+                    "libraries": [{
+                            "library": "GTEx_Aging_Signatures_2021_lncRNA",
+                            "term_limit": 5
+                        }, {
+                            "library": "GTEx_Tissues_V8_2023_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["GTEx Aging", "GTEx Tissues"]
+                },
+                "width": 80
+            }, {
+                "height": 100,
+                "icon": "https://s3.amazonaws.com/maayan-kg/cfde-kg/assets/MetabolomicsWorkbench.png",
+                "label": "Metabolomics Workbench",
+                "props": {
+                    "libraries": [{
+                            "library": "Metabolomics_Workbench_Metabolites_2022_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["Metabolomics"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
+                "icon": "https://s3.amazonaws.com/maayan-kg/cfde-kg/assets/IDG.png",
+                "label": "IDG",
+                "props": {
+                    "libraries": [{
+                            "library": "IDG_Drug_Targets_2022_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["IDG"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
+                "icon": "https://s3.amazonaws.com/maayan-kg/cfde-kg/assets/glygen.png",
+                "label": "GlyGen",
+                "props": {
+                    "libraries": [{
+                            "library": "GlyGen_Glycosylated_Proteins_2022_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["GlyGen"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
+                "icon": "https://s3.amazonaws.com/maayan-kg/cfde-kg/assets/KOMP2.svg",
+                "label": "KOMP2",
+                "props": {
+                    "libraries": [{
+                            "library": "KOMP2_Mouse_Phenotypes_2022_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["KOMP2"]
+                },
+                "width": 100
             }
         ],
         "tabs": [{
@@ -1505,8 +1875,17 @@
                             "name": "FANTOM6_lncRNA_KD_DEGs_lncRNA",
                             "node": "FANTOM6 lncRNA"
                         }, {
+                            "name": "GlyGen_Glycosylated_Proteins_2022_lncRNA",
+                            "node": "GlyGen Glycosylated Proteins 2022 lncRNA"
+                        }, {
                             "name": "GO_Biological_Process_2021_lncRNA",
                             "node": "GO Biological Process lncRNA"
+                        }, {
+                            "name": "GTEx_Aging_Signatures_2021_lncRNA",
+                            "node": "GTEx Aging Signatures 2021 lncRNA"
+                        }, {
+                            "name": "GTEx_Tissues_V8_2023_lncRNA",
+                            "node": "GTEx Tissues V8 2023 lncRNA"
                         }, {
                             "name": "GWAS_Catalog_2019_lncRNA",
                             "node": "GWAS Catalog lncRNA"
@@ -1520,17 +1899,26 @@
                             "name": "Human_Phenotype_Ontology_lncRNA",
                             "node": "Human Phenotype Ontology lncRNA"
                         }, {
+                            "name": "IDG_Drug_Targets_2022_lncRNA",
+                            "node": "IDG Drug Targets 2022 lncRNA"
+                        }, {
                             "name": "Jensen_DISEASES_lncRNA",
                             "node": "Jensen Lab DISEASES lncRNA"
                         }, {
                             "name": "KEGG_2021_Human_lncRNA",
                             "node": "KEGG Pathway lncRNA"
                         }, {
+                            "name": "KOMP2_Mouse_Phenotypes_2022_lncRNA",
+                            "node": "KOMP2 Mouse Phenotypes 2022 lncRNA"
+                        }, {
                             "name": "LINCS_L1000_Chem_Pert_Consensus_Sigs_lncRNA",
                             "node": "LINCS Chem Pert Consensus Sigs lncRNA"
                         }, {
                             "name": "LINCS_L1000_CRISPR_KO_Consensus_Sigs_lncRNA",
                             "node": "LINCS CRISPR KO Consensus Sigs lncRNA"
+                        }, {
+                            "name": "Metabolomics_Workbench_Metabolites_2022_lncRNA",
+                            "node": "Metabolomics Workbench Metabolites 2022 lncRNA"
                         }, {
                             "name": "MGI_Mammalian_Phenotype_Level_4_2021_lncRNA",
                             "node": "MGI Mammalian Phenotype Level 4 2021 lncRNA"
@@ -2053,6 +2441,114 @@
             "node": "WikiPathway 2021 Human lncRNA",
             "relation": [],
             "search": ["id", "label"]
+        }, {
+      "color": "#a2e1db",
+      "display": [
+        {
+          "label": "GlyGen Glycosylated Proteins 2022 lncRNA ID",
+          "text": "${id}",
+          "type": "text"
+        },
+        {
+          "label": "label",
+          "text": "${label}",
+          "type": "text"
         }
+      ],
+      "example": [ "G00031MO", "G00406II" ],
+      "node": "GlyGen Glycosylated Proteins 2022 lncRNA",
+      "relation": [],
+      "search": [ "id", "label" ]
+    }, {
+      "color": "#55cbcd",
+      "display": [
+        {
+          "label": "GTEx Aging Signatures 2021 lncRNA ID",
+          "text": "${id}",
+          "type": "text"
+        },
+        {
+          "label": "label",
+          "text": "${label}",
+          "type": "text"
+        }
+      ],
+      "example": [ "GTEx Uterus 20-29 vs 40-49 Up", "GTEx Uterus 20-29 vs 40-49 Down" ],
+      "node": "GTEx Aging Signatures 2021 lncRNA",
+      "relation": [],
+      "search": [ "id", "label" ]
+    }, {
+      "color": "#ffc8a2",
+      "display": [
+        {
+          "label": "GTEx Tissues V8 2023 lncRNA ID",
+          "text": "${id}",
+          "type": "text"
+        },
+        {
+          "label": "label",
+          "text": "${label}",
+          "type": "text"
+        }
+      ],
+      "example": [ "Adipose - Subcutaneous Female 60-69 Up", "Muscle - Skeletal Female 60-69 Up" ],
+      "node": "GTEx Tissues V8 2023 lncRNA",
+      "relation": [],
+      "search": [ "id", "label" ]
+    }, {
+      "color": "#97c1a9",
+      "display": [
+        {
+          "label": "IDG Drug Targets 2022 lncRNA ID",
+          "text": "${id}",
+          "type": "text"
+        },
+        {
+          "label": "label",
+          "text": "${label}",
+          "type": "text"
+        }
+      ],
+      "example": [ "Levobupivacaine", "(S)-nitrendipine" ],
+      "node": "IDG Drug Targets 2022 lncRNA",
+      "relation": [],
+      "search": [ "id", "label" ]
+    }, {
+      "color": "#cce2cb",
+      "display": [
+        {
+          "label": "KOMP2 Mouse Phenotypes 2022 lncRNA ID",
+          "text": "${id}",
+          "type": "text"
+        },
+        {
+          "label": "label",
+          "text": "${label}",
+          "type": "text"
+        }
+      ],
+      "example": [ "Increased Lean Body Mass (MP:0003960)", "Decreased Erythrocyte Cell Number (MP:0002875)" ],
+      "node": "KOMP2 Mouse Phenotypes 2022 lncRNA",
+      "relation": [],
+      "search": [ "id", "label" ]
+    }, {
+      "color": "#d4f0f0",
+      "display": [
+        {
+          "label": "Metabolomics Workbench Metabolites 2022 lncRNA ID",
+          "text": "${id}",
+          "type": "text"
+        },
+        {
+          "label": "label",
+          "text": "${label}",
+          "type": "text"
+        }
+      ],
+      "example": [ "(S)-Methylmalonate Semialdehyde", "1,2-Diacyl-sn-glycerol" ],
+      "node": "Metabolomics Workbench Metabolites 2022 lncRNA",
+      "relation": [],
+      "search": [ "id", "label" ]
+    }
     ]
 }
