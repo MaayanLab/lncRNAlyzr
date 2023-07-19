@@ -1,6 +1,6 @@
-## lncEnrichr-KG Libraries
+## lncRNAlyzr Libraries
 
-Please note: Currently LINCS libraries are not available
+Note: LINCS libraries are not currently available
 
 | Resource | GMT Library | Date Updated | 
 | :--------- | :--------- | :--------- |
