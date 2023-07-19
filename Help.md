@@ -44,4 +44,4 @@ Furthermore, users can view selected relationships of interest by using the rela
 
 lncRNAylzr also provides the ability to perform two term/gene search. This function finds all the shortest paths between any two entities within the lncRNAylzr knowledge graph. This fucntionality facilitates the discovery of hidden connections between functional terms and genes.
 
-### Note: these instructions are adapted from https://maayanlab.cloud/Enrichr/help#background and https://maayanlab.cloud/enrichr-kg/tutorial
+#### These instructions are adapted from https://maayanlab.cloud/Enrichr/help#background and https://maayanlab.cloud/enrichr-kg/tutorial.
