@@ -1474,6 +1474,20 @@
                 "width": 100
             }, {
                 "height": 100,
+                "href": "https://hubmapconsortium.github.io/ccf-asct-reporter/",
+                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/HuBMAP.png",
+                "label": "HuBMAP",
+                "props": {
+                    "libraries": [{
+                            "library": "HuBMAP_ASCTplusB_augmented_2022_lncRNA",
+                            "term_limit": 5
+                        }
+                    ],
+                    "relation": ["HuBMAP ASCTplusB"]
+                },
+                "width": 100
+            }, {
+                "height": 100,
                 "href": "https://depmap.org/portal/achilles/",
                 "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/depmap.svg",
                 "label": "Project Achilles",
@@ -1545,20 +1559,6 @@
                     "relation": ["Pfam"]
                 },
                 "width": 80
-            }, {
-                "height": 100,
-                "href": "https://hubmapconsortium.github.io/ccf-asct-reporter/",
-                "icon": "https://minio.dev.maayanlab.cloud/enrichr-kg/HuBMAP.png",
-                "label": "HuBMAP",
-                "props": {
-                    "libraries": [{
-                            "library": "HuBMAP_ASCTplusB_augmented_2022_lncRNA",
-                            "term_limit": 5
-                        }
-                    ],
-                    "relation": ["HuBMAP ASCTplusB"]
-                },
-                "width": 100
             }, {
                 "height": 100,
                 "href": "http://biogps.org/downloads/",
