@@ -1821,13 +1821,19 @@
                 "props": {
                     "default_options": {
                         "libraries": [{
-                                "library": "Human_Phenotype_Ontology_lncRNA",
+                                "library": "GlyGen_Glycosylated_Proteins_2022_lncRNA",
                                 "term_limit": 5
                             }, {
-                                "library": "Achilles_fitness_decrease_lncRNA",
+                                "library": "LINCS_L1000_Chem_Pert_Consensus_Sigs_lncRNA",
                                 "term_limit": 5
                             }, {
-                                "library": "Reactome_2022_lncRNA",
+                                "library": "IDG_Drug_Targets_2022_lncRNA",
+                                "term_limit": 5
+                            }, {
+                                "library": "Metabolomics_Workbench_Metabolites_2022_lncRNA",
+                                "term_limit": 5
+                            }, {
+                                "library": "HuBMAP_ASCTplusB_augmented_2022_lncRNA",
                                 "term_limit": 5
                             }
                         ],
