@@ -1379,12 +1379,12 @@
         },
         {
             "alt": "license",
-            "height": 50,
+            "height": 68,
             "href": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
             "key": "license_icon",
             "src": "https://minio.dev.maayanlab.cloud/lncrnalyzr/cc-by-nc-sa.webp",
             "type": "icon",
-            "width": 200
+            "width": 192
         }
     ],
     "header": {
